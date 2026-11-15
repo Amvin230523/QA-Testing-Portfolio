@@ -80,11 +80,53 @@
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": "secret_sauce"
+    }, {
+      "id": "cf5cd56b-d753-4b54-bebf-c2bbbcacb8e0",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "standard_user"
+    }, {
+      "id": "24875a2a-066a-424c-a1e1-555697033d6b",
+      "comment": "",
+      "command": "assertValue",
+      "target": "id=password",
+      "targets": [],
+      "value": "secret_sauce"
     }]
   }, {
     "id": "2d317052-d390-4429-89fd-35bbf9374cda",
     "name": "TC_LA01",
-    "commands": []
+    "commands": [{
+      "id": "14cfa810-bcc1-464d-9d67-7b9423ca2115",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfb0983d-727c-48f5-a76e-17382cb9152d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "d35f4596-9552-478f-8896-c0cc856d908e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58bd19da-008f-49a3-b5ea-743af348067e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }]
   }, {
     "id": "c177810e-236f-4635-9f55-c08903dc6932",
     "name": "TC_LA03",
@@ -269,6 +311,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "d43c1878-6503-4268-8aa2-70753f0ab3fc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "cff4f191-0aea-4479-9604-0b86960e0890",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "725359ba-c7d2-494a-8c62-8f39372fada1",
@@ -464,6 +520,20 @@
       ],
       "value": ""
     }, {
+      "id": "7287e3ad-374d-4aca-8048-c166234c65a4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "1fceace3-4c4f-4bae-b8bf-0dffb40caa05",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Sorry, this user has been locked out."
+    }, {
       "id": "86d9da24-b94b-45ac-83ce-8a6be8c9b7e1",
       "comment": "",
       "command": "close",
@@ -657,6 +727,20 @@
       ],
       "value": ""
     }, {
+      "id": "f394b5d0-a129-445a-8dfc-c86ed29f7825",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "ca8bbbb9-f7bd-4350-a67e-e85119602be1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "8dc74793-d65a-48ca-8674-82bb42de02b1",
       "comment": "",
       "command": "close",
@@ -833,6 +917,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "f63832f5-9400-4b45-a3be-29f13a7070a0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "56f7e2fc-d5d8-4242-8c56-44b5e1bf455b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "c977acd2-7c2b-4bb8-bd17-5bb8bc02e3e3",
@@ -1013,6 +1111,20 @@
       ],
       "value": ""
     }, {
+      "id": "5aea4679-d4ff-46ee-b89a-57edbb42b9d0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f2b31c72-122a-40c6-9d80-d0b7cc33546f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username and password do not match any user in this service"
+    }, {
       "id": "0649313d-6876-4b07-88a5-7febc84036d5",
       "comment": "",
       "command": "close",
@@ -1155,6 +1267,20 @@
       ],
       "value": ""
     }, {
+      "id": "f2e41700-863a-4936-850f-c4c06a62063c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "7e45f11d-b747-44a2-b011-affc07bdd207",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username and password do not match any user in this service"
+    }, {
       "id": "f2d37da1-c7b1-4679-8126-0b8fdf49d3fc",
       "comment": "",
       "command": "close",
@@ -1194,6 +1320,20 @@
         ["xpath=//form/input", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "02c3e91a-5475-44a6-96b1-2c1e4196ec19",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5e083493-3b3b-4f92-86b5-9f91cf5beaa0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username is required"
     }, {
       "id": "39feed4b-03ff-4441-bdd7-b5687504c03a",
       "comment": "",
@@ -1327,6 +1467,20 @@
       ],
       "value": ""
     }, {
+      "id": "6af1c990-5fc7-4120-9bf8-36ccbd327b81",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a4379759-fd79-44b5-b1a7-948881f331bf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Username is required"
+    }, {
       "id": "d5ef34de-dcd5-42d3-bf3e-f338297810b4",
       "comment": "",
       "command": "close",
@@ -1438,6 +1592,20 @@
         ["xpath=//form/input", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "6ac52379-e5cc-4687-bc20-85dcaa3decf3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f2db1e70-4da8-4577-b55f-99bcd79bfed4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: Password is required"
     }, {
       "id": "be9c12b2-9ca2-4776-b501-4900455fbdfc",
       "comment": "",
@@ -1625,6 +1793,13 @@
       ],
       "value": ""
     }, {
+      "id": "c7d0f33f-28d2-4621-aead-eed95bd05b13",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=input#password[type=\"password\"]",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "0312a859-8179-4898-b27c-26aef6054880",
       "comment": "",
       "command": "close",
@@ -1803,6 +1978,20 @@
       ],
       "value": ""
     }, {
+      "id": "28633453-8293-405a-b8e7-d43ad15133c9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a4a1c31c-d0a0-4164-9d95-1245ab427b8d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "a0ccab36-7ee1-4417-a542-8b14505fe7c1",
       "comment": "",
       "command": "click",
@@ -1816,6 +2005,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "818abc4c-3e02-434d-8bfc-f99fa180a492",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "dec327ef-e6ab-46cc-836a-5bb199165d9a",
       "comment": "",
@@ -1833,6 +2029,20 @@
         ["xpath=//a[3]", "xpath:position"],
         ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "42bf17d1-4c4b-4a8c-a972-bcd22935575d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6146eb44-1e9e-4935-9cba-ddc7ced541fd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
       "value": ""
     }, {
       "id": "c8b8d9f0-3c3b-4570-b0b7-3f96e8b17034",
@@ -2013,6 +2223,20 @@
       ],
       "value": ""
     }, {
+      "id": "e9250ec8-61c4-43c3-be5f-a7e04051a694",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "b42b0c20-1506-4e89-9e45-7be8783075e1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "c45e0bba-d3b8-4909-92c8-c8dd1438f59d",
       "comment": "",
       "command": "click",
@@ -2026,6 +2250,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "23d53631-4cc5-49aa-ada9-a1e4d1f998ec",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "51e3458b-6c6e-4a2f-b6e3-fca524aa1da9",
       "comment": "",
@@ -2043,6 +2274,20 @@
         ["xpath=//a[3]", "xpath:position"],
         ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "f52e6190-fe6c-4621-b862-42c9d6c2e648",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5dbd6206-9360-4ada-8a39-876a2c9442ab",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
       "value": ""
     }, {
       "id": "fc8f048b-b1e8-4283-bc7e-42978d24441c",
@@ -2223,6 +2468,20 @@
       ],
       "value": ""
     }, {
+      "id": "76327c78-6b26-47eb-acd5-2434df9365b1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a7a1ca35-dcb2-4166-8436-2ce8aa529ee8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "facaedc1-b8f0-41cc-b4cf-cdf779ec2caa",
       "comment": "",
       "command": "click",
@@ -2236,6 +2495,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "1dfc54d0-afde-4160-b7d1-b73cc7258c6c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "22c79842-5958-4912-857a-53cf96554f0c",
       "comment": "",
@@ -2253,6 +2519,20 @@
         ["xpath=//a[3]", "xpath:position"],
         ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "1d9555a7-c374-443e-8ddf-ce00ebd49a24",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "97c078b8-4619-4114-abbf-e78f6d732501",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
       "value": ""
     }, {
       "id": "b6ded03e-f2c6-4f1d-aa84-918b41b834c3",
@@ -2433,6 +2713,20 @@
       ],
       "value": ""
     }, {
+      "id": "28d673e5-c2ab-4cab-99ff-720cf609e4e0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "8fd0cdd3-7388-45f9-a4c2-a9b8c8aa031a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "d02c9a6f-f511-4447-a8db-105631d92343",
       "comment": "",
       "command": "click",
@@ -2446,6 +2740,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "45592fe7-a965-4145-a41a-1bc913e6f29b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "ff0ffb49-d454-4c64-8ab7-458c123dd2d4",
       "comment": "",
@@ -2465,7 +2766,49 @@
       ],
       "value": ""
     }, {
-      "id": "52eb953b-a610-4332-82fd-8c6886ddcbba",
+      "id": "64c4d941-2bab-4f0d-97fc-8933aca0b9ef",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5c0b9cb4-998a-4e28-9fcf-9009264a5398",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "751c5eda-4f0c-490f-bf3e-29cdb436be62",
+      "comment": "",
+      "command": "open",
+      "target": "/inventory.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3354f483-8466-451d-bbed-bd69e8476270",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "d4be473d-f2bb-473b-bcfb-bd4c0e5a61eb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59080bb4-70a8-4bbd-af35-57aed9d21cf1",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: You can only access '/inventory.html' when you are logged in."
+    }, {
+      "id": "b0fc5c1e-f350-4055-9d35-0d063ccd89e5",
       "comment": "",
       "command": "close",
       "target": "",
@@ -2641,6 +2984,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "1115e24c-7ae0-40a3-8e52-5af3329981dc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "dff7e76a-3df0-4926-ac0c-6ef892eacdbf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "678ff4ce-b91b-4d3a-a4af-ebb2fabe25df",
@@ -2819,6 +3176,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "77c5d389-76a8-470e-8b08-00d7722f1ba5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "01c5b118-bf7b-4fda-9f8a-5df2c4359bdc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "d678cf91-8170-4a30-baf8-3b700c23577f",
@@ -3011,6 +3382,20 @@
       ],
       "value": ""
     }, {
+      "id": "e0205de5-2514-42cb-b0bb-eae9afa39062",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9ad775df-c80c-4f24-bc74-49fc1e01e9f6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "6895aa3f-9063-47b3-bd86-06dcaf869249",
       "comment": "",
       "command": "click",
@@ -3024,6 +3409,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "f90f4a26-59d1-4532-a716-115a44326d25",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "40e85f76-a55a-4c21-9e68-e6a6aa56b310",
       "comment": "",
@@ -3041,6 +3433,20 @@
         ["xpath=//a[3]", "xpath:position"],
         ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "22807991-a1d0-4ae2-9e35-ea65c55f4498",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e2da0ecf-13a8-44f2-a48f-9201e73ad0e7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
       "value": ""
     }, {
       "id": "03ebf439-9210-4875-a05b-1e56a9481b84",
@@ -3221,6 +3627,20 @@
       ],
       "value": ""
     }, {
+      "id": "05a641f3-8d24-4fa4-802c-1d88f2b6362d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5e08a82e-f127-4352-9e7e-f4f897579480",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "2d363e58-b81d-4679-a094-137956511852",
       "comment": "",
       "command": "click",
@@ -3234,6 +3654,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "c73fb553-495b-4503-a83b-1d35da160190",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "9e355060-8a8b-4774-ad0a-43e956974d0b",
       "comment": "",
@@ -3251,6 +3678,20 @@
         ["xpath=//a[3]", "xpath:position"],
         ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "51a8f567-69d2-44ff-9b85-350a9a1ac854",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "3e2ffe27-7b3d-4533-bbd1-913ffa9355cc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
       "value": ""
     }, {
       "id": "8d6abd69-f2b0-4358-bf82-f74a5a37b1a2",
@@ -3431,6 +3872,20 @@
       ],
       "value": ""
     }, {
+      "id": "aae241a9-7d24-4e88-893b-d9a891e7682b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e2b2c11b-0a70-4523-ada3-6f0c77ca5fa5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "1879ccac-466b-40bd-916c-256f44f274a8",
       "comment": "",
       "command": "click",
@@ -3444,6 +3899,13 @@
         ["xpath=//button[contains(.,'Open Menu')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "f2523a83-4cd0-433d-9a74-0c66cfd6ec07",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=logout_sidebar_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "b664ed3e-f345-45a1-a412-c8147cef23bf",
       "comment": "",
@@ -3461,6 +3923,62 @@
         ["xpath=//a[3]", "xpath:position"],
         ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
       ],
+      "value": ""
+    }, {
+      "id": "b257b392-7962-46a1-a514-463f7f52a15b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "ae1661ef-9cc3-41f3-8644-1a2eb5998f8e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb90a4d1-70fc-4dcd-830d-e2c125a5d7cf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.back();",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5727ac4e-5b16-46cd-9ac9-d3f870aa2242",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f434dfb7-780e-4910-9fff-0ae349cc23c5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=login-button",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "124578da-c2e0-4389-a224-4979ecde79d8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=user-name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "988955c4-804d-4a1e-8ece-c3613b3c7515",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=[data-test=\"error\"]",
+      "targets": [],
+      "value": "Epic sadface: You can only access '/inventory.html' when you are logged in."
+    }, {
+      "id": "fd8cebb8-9c42-4025-9480-c132596ea622",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -3634,6 +4152,20 @@
       ],
       "value": ""
     }, {
+      "id": "5f834f68-a9e2-4eb8-a676-73a6654a1e0b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "21446f9d-f52a-41ce-8bcb-04c11e4fdf29",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "e816be6c-8735-48b4-97de-4d5996858a45",
       "comment": "",
       "command": "click",
@@ -3661,6 +4193,13 @@
         ["xpath=//button[contains(.,'Back to products')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "fa2675f9-fd02-400d-a1a8-52f0c5d4aaa9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "c90088e3-2f7c-4fc4-ab21-1c6011e702f3",
       "comment": "",
@@ -3838,6 +4377,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "f633ad54-bf16-40b9-8d2c-eda147072736",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "3787078c-81cc-4eb3-8abb-b9d29d379e63",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "e982a96c-1e10-4982-9d5f-0a29697ec4df",
@@ -4018,6 +4571,20 @@
       ],
       "value": ""
     }, {
+      "id": "e6e53ad3-e8e1-4e42-be89-a1cc56f60515",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "7be8264e-12d3-4cd6-9913-bd9cfdf939c4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "eecc4f39-7e0d-4223-9daf-f468d4e39526",
       "comment": "",
       "command": "close",
@@ -4194,6 +4761,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "08d94636-d16e-47a1-a709-a721408a61fe",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9358d435-86dd-4454-9514-b9cfc55a7605",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "9a41276a-ff40-4208-b5b0-3faea053e5de",
@@ -4374,6 +4955,20 @@
       ],
       "value": ""
     }, {
+      "id": "661d3ae1-a6c2-4f20-af6e-4ca375e1c4bc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "57e49290-278e-43ed-8b3a-abd2b0cc7cc9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "21272e00-f4af-4f00-ad50-52fbaf5aeb54",
       "comment": "",
       "command": "close",
@@ -4550,6 +5145,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "c02b37d9-650b-4c91-89ed-0cc88ab37503",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5a593882-a487-4d86-a6bb-7a9510ecf03f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "d9fef006-a58f-45ec-bbb7-621ba97095ac",
@@ -4730,6 +5339,20 @@
       ],
       "value": ""
     }, {
+      "id": "08b6189f-15f1-4a55-b6b2-54a4efeb0bee",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "0d037bf5-4998-4674-8bad-d6a6c92c410e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "b3759669-7b56-41e0-a249-39ec66f5d701",
       "comment": "",
       "command": "close",
@@ -4906,6 +5529,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "5d59a9ac-324b-44ea-96cb-f5c94c7d067d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "58da51b1-7c91-472c-9f45-71a80c4fa7f1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "6cd15173-decf-4c46-9140-636c6ba2994a",
@@ -5086,6 +5723,20 @@
       ],
       "value": ""
     }, {
+      "id": "8484042b-26dd-4302-8b82-138172d264d4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6269e16c-1f5b-41b4-9e63-275e0ea04da3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "77ff1c0c-5df9-42bc-83b5-b077efb76441",
       "comment": "",
       "command": "close",
@@ -5262,6 +5913,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "2e010e02-f1ba-40cc-b6fd-595bd366afb5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "569f8dca-6718-4315-9b3a-56fdce97893b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "dae2e959-e1fd-4fd5-8eb4-196e5bfb53ce",
@@ -5442,6 +6107,20 @@
       ],
       "value": ""
     }, {
+      "id": "8b03709d-3244-4138-9449-5b1028b21d73",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "114cf9ea-17b8-42c1-82eb-19278b946708",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "b65bcb71-0aa3-4b6a-bc8f-8c9e3f7b055a",
       "comment": "",
       "command": "close",
@@ -5618,6 +6297,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "8e1aac98-60c6-41c7-bef6-7b00292ab88f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "cc33ac11-172a-4f7d-add9-ea0da99d54fe",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "aa4a45b8-95b1-47e8-916a-132337b817f1",
@@ -5798,6 +6491,20 @@
       ],
       "value": ""
     }, {
+      "id": "8c235889-8bd0-416c-aa93-c3f97f805b8a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e93727e7-df56-446d-91b1-719b73deb6c5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "f780129d-8e00-41ae-909c-142024248681",
       "comment": "",
       "command": "close",
@@ -5807,7 +6514,7 @@
     }]
   }, {
     "id": "74462485-b0ab-4d44-bae7-7a18509f7720",
-    "name": "TC_PD014",
+    "name": "TC_PD14",
     "commands": [{
       "id": "49dc2ee4-8984-4da3-a50f-2a66767c0604",
       "comment": "",
@@ -5974,6 +6681,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "0d2205be-73d3-4cf7-a735-1af202a6a5f7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "eea8570e-48f0-4a9d-b3ec-54a9bc212c5b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "eb918e2b-48da-45c6-afd0-62278e1c9770",
@@ -6154,6 +6875,20 @@
       ],
       "value": ""
     }, {
+      "id": "89f2b17b-953f-4da1-8d29-6f8bedfabf79",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "dfc25554-08b4-4a72-9375-d8eb99d5c011",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "6efbb0ac-15a1-45e3-9eff-c30c11ade47b",
       "comment": "",
       "command": "close",
@@ -6330,6 +7065,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "dd0a3f69-2b8d-4211-8ad2-797081608334",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "89da9f80-029a-4c58-8d58-aa03bd79dcb5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "ec300578-0d82-4682-a0bc-3c6fa3fc2af8",
@@ -6510,6 +7259,20 @@
       ],
       "value": ""
     }, {
+      "id": "faf49fb3-5aef-48e1-9760-8211ce64be7b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6573c99a-53c5-4dca-a149-89c1b8ea8d51",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "36ff04d5-5b17-4922-9da5-76f3fcdbedea",
       "comment": "",
       "command": "close",
@@ -6519,7 +7282,7 @@
     }]
   }, {
     "id": "7ee6376d-871f-420a-9ac7-e813f5ab98a6",
-    "name": "TC_PD019",
+    "name": "TC_PD19",
     "commands": [{
       "id": "f768c7e9-5dd7-4d2c-b434-a46760171296",
       "comment": "",
@@ -6686,6 +7449,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "834b4a4c-5f53-4ae1-a6bb-773bece4e554",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "d2d69441-b373-47e4-ab0d-3dc373b9d2f5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "0172e9fb-48fb-4c62-9d8c-9fe6ddd4dff5",
@@ -6866,6 +7643,20 @@
       ],
       "value": ""
     }, {
+      "id": "39e296e9-b6cd-4ced-8bc1-b989b13cb664",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "017a26c2-ad92-495c-99ca-e295f8919c4a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "1f09462d-0e77-45ac-98e0-49221c2ba70d",
       "comment": "",
       "command": "close",
@@ -7042,6 +7833,20 @@
         ["xpath=//div[@id='login_button_container']/div/form/input", "xpath:idRelative"],
         ["xpath=//form/input", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "b494acc2-a3aa-4037-bdc4-ab94c72b9259",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6abc7102-e0ea-4726-ae0e-f75e816f6d1f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
       "value": ""
     }, {
       "id": "d9586e1b-e5e2-43d0-ba69-e8fda7b75238",
@@ -7222,6 +8027,20 @@
       ],
       "value": ""
     }, {
+      "id": "6d98b5cc-361d-45a5-9906-0f3b4f73aef2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "7e43942f-112a-4718-8d08-e9771e207553",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "07a01d00-50c5-43f4-90e5-2ecf49ba33cb",
       "comment": "",
       "command": "click",
@@ -7234,17 +8053,34 @@
       ],
       "value": ""
     }, {
+      "id": "e6a4232c-c254-45b6-a97f-cb224d515321",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "4957650f-07b9-4683-b1eb-12350ce3305e",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "b4ef9801-8859-40f5-81e4-f2bd38f467be",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f7f3016b-9538-41fd-a8c1-7d9254c3dd36",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "bc4dc229-a64e-4092-857b-4b26ed7bbac4",
@@ -7263,42 +8099,87 @@
       ],
       "value": ""
     }, {
+      "id": "a50627d0-ca25-4b84-b3e1-5ef1c602dbee",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "d33bcd86-922a-4680-9300-c09a9cd8f499",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "cb226e41-f146-44c6-acc9-9e217c773094",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "0f881bc5-69f3-4126-be76-851a5713b655",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9e3afd42-87d6-4d92-989f-6bdb8f0987c3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "1ad39db3-2725-4217-82a7-55a089c8b121",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "8a8cf48f-1f64-44bb-a0e5-80568cf1d1d8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "05afa21a-5746-42d3-9713-418992f2c85a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "33a98621-bd4a-4f78-868d-a53a9270d29c",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "32bd93dd-1d4c-4180-ba33-edbc3915e721",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "d80d95f0-7c5e-46f1-8c15-e3cb605c457e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "12204bf1-f6bd-4009-bfaf-aa69ba321da4",
@@ -7317,67 +8198,133 @@
       ],
       "value": ""
     }, {
+      "id": "7561a0fe-0dda-4b04-8869-3ca6750a85e1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "fa0b37e3-2214-4de6-8fa1-419818dc5c0c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "bf892e36-7e93-4a46-b027-7509e618b268",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "03ebea13-a957-4618-8d4c-3054ceb6b8e9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "07e431b4-cac4-4326-b256-c548d3a1abc6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "93b92721-b7f3-48e7-bdf4-4d68ac3f020f",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "d199d25b-d7f6-4be4-8971-6727734aab15",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "8fc5e9ca-f72e-461d-97ea-51d6bf47ddb2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "43b978f6-e5ee-43fb-a3c6-9a1858bb53f5",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "9b7bd700-628e-4488-abca-5581b1ecb8c9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e3d2ac6d-d97d-48e3-be44-9a9d4db3d3ac",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "e93f2b15-7192-4eec-95a6-c94ce7cad323",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "ae74659d-4b44-4d3d-891a-0866395230d4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "bbeb04e6-f719-49d4-9b7f-bdcf35a7cb29",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "e6a2e2aa-a293-4512-a4b4-48755414df12",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "560543e9-61ba-4ee1-a1b1-4439063c5e14",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "93728b7f-c2be-4f3f-8102-9ce5aa51edce",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "cc8be844-3439-4a21-90a8-e7c5e9c3415b",
@@ -7395,64 +8342,110 @@
       "id": "8c901f02-ed7e-4310-bbc7-98c7dd477ff0",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "d3111216-4110-483d-97ab-01e06059a422",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6f3ad2a2-b545-4b75-8145-76d053673e6a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "3ba313e3-dc03-43b4-95ae-2ee065c4c85c",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "8dffb7cc-db2e-4fb2-989a-b248b7b1c7ad",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "aabc4226-35f4-4e0b-b918-a3af6a63c257",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "6be4b886-57ac-45b0-91e7-8ef97102aaeb",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "76f86c0a-ac93-417c-b271-8051f620daa3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "fdc13ead-28f5-4ba3-bd84-76b209ba093e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "66c1f67b-6e11-490f-bb03-9c612f80fe47",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "10e753ce-7b31-4afa-bd71-c8e9291772d0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9385bedc-858e-40fc-9049-11a5281489f7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "25e1c861-2d8f-48c3-a3d3-ee220acf045a",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "51b3042c-69a0-413a-af91-4a6e7e33af13",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "2aa80a2e-03da-44e4-afb1-d02b9e867ff4",
       "comment": "",
@@ -7632,6 +8625,20 @@
       ],
       "value": ""
     }, {
+      "id": "4fe95088-6ca1-42eb-bb5d-10476cb2a5d8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6ec4e6d0-598a-454c-90c5-e1fd89e0b867",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "2f3ea328-dca5-4095-b712-aa49d278f2bf",
       "comment": "",
       "command": "click",
@@ -7644,17 +8651,34 @@
       ],
       "value": ""
     }, {
+      "id": "3c38f4fa-0ce6-493c-988c-74a3c7df7f28",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "54a94ddb-636d-4253-bba9-e5d2fdc8299a",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "13bcb274-fdde-458c-a322-8c7b9afe3d90",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "1e08d7e8-2b06-4b61-b555-3be3498d455f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "806b4cdf-e6c2-4e80-9ad4-58e03f24e506",
@@ -7673,42 +8697,87 @@
       ],
       "value": ""
     }, {
+      "id": "8db1f6f7-5ed6-40e4-9a95-aa9395db6400",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "851d62f0-0cae-4560-8220-03c345388409",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "ee6b1f83-c7b7-4989-a91a-04e992440f9e",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "405279f6-e916-4c43-b39c-550f41c396ab",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "403747a0-4ea8-4e7d-8072-0fa32bc80873",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "00ecfcbf-3339-4b82-99f9-51d6bf827ace",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "90cdae66-6318-4eee-9584-ae64a7dde55a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "8adef8d7-2c4e-4b90-8432-88d73b4c17c8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "a032d194-ae2d-4a84-82c0-b62d6029a26f",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "20f19976-b4be-444e-91a0-0b6e6eb16c76",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f15234d3-2ffe-4226-9201-ad1db631330a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "7dec0dbd-ccf5-4f97-a771-5a9276bb8cca",
@@ -7727,67 +8796,133 @@
       ],
       "value": ""
     }, {
+      "id": "06e89ea3-3c36-4985-ac71-a6ef8ff0ab84",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a4190f84-56c2-45bc-aee8-50537945868b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "8df72cd2-a475-4ab3-9c36-b9547d962f3e",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "c1c76eba-56e0-491e-961c-2e05f57dc781",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "1e60b5fa-4785-4c44-bd8b-8691b59937e5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "8006c868-da11-4c12-9600-54c90265ab9c",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "b2b4185a-dc25-4c2a-aa81-5662aae6b154",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "0d9e5fa7-504b-4687-b144-7119622bec1c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "a18ac12d-befe-4e91-ae18-ea58ddc0ab73",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "317a6a81-0909-42ea-8b94-293def72c855",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "49c574ac-bd8f-45ef-a8e5-03efe8168958",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "6d8c8fa6-24b7-44c7-9960-28dbb693894b",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "d5edf434-447e-463e-9723-e6d60e5fae07",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e50122be-769c-40fe-b5ad-77631f1ea8cc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "4e6dea62-24aa-4356-9c82-9c5f9b53297e",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "db04ab59-7bd6-4d8e-b6a0-01776c175e20",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f95c7d98-e3ab-4045-ad6b-68da439ba0bb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "ac48242b-4a9e-40b8-8d8b-26fc72c167e1",
@@ -7805,64 +8940,110 @@
       "id": "bb8fdee3-ce84-46e6-895f-dcde79d27983",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "5e85b2bd-1804-453f-a439-c5fa472390dd",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "04906f54-1299-4578-bfee-02363f7370aa",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "5cbb4830-e28f-4562-b62c-437202a33331",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "8b9d2d5e-3917-436a-b7d9-1e5117627407",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "0f54bcfb-c80f-4bef-a1d4-67a8a6574b2c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "6c9fc3f5-9e89-44e1-8a68-c75756dfda70",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "f7ee447e-185f-47e8-81a9-d9ae63bcd853",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "80bba6e4-a35f-4b67-936d-4f73263debd2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "a50d8859-9830-4a65-a2e0-727d0c325b04",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "0e6c69a5-0e16-4158-b952-d2920212458d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "2af20f76-e73a-4e1e-9390-5f543f220973",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "9f7de2b3-9b3c-41e5-88ec-e836a20187fb",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "b3ac8d9f-5f44-4c8e-acf0-1b8af382bd4a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "a073dcaf-e398-43ba-b763-6d3684b454a9",
       "comment": "",
@@ -8042,6 +9223,20 @@
       ],
       "value": ""
     }, {
+      "id": "e9521ebd-75ea-4a5e-994f-22f7a2d4933c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "8cbbdc38-bc94-4a46-981b-ce5fa9a13ba6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "87b99440-71d5-4a41-a301-5a33394c8113",
       "comment": "",
       "command": "click",
@@ -8054,17 +9249,34 @@
       ],
       "value": ""
     }, {
+      "id": "704ac9a7-357e-4853-983b-41c11d915fa4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "713aadc0-86cc-4431-a3a0-82f93a47425b",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "3e9d317e-a920-44c0-a70b-756277938e8d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "03d15b67-74b5-4f1d-be7e-82b48a41a5b5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "0cd76ba0-c202-4ee2-81ee-f328b68aec73",
@@ -8083,42 +9295,87 @@
       ],
       "value": ""
     }, {
+      "id": "2fd8d446-8047-451b-b876-2fde0f9b1a0a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "b58c6819-0a5d-4865-bfc9-f693502f94f7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "eedd55d6-28c6-4bb3-b2d9-4ed2143c1def",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "784a5717-00a0-44c3-bc69-c458f9e5485d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "3ccd8580-6402-4d40-a896-5b74d6b64bc0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "41eac49b-1e23-428a-a96d-912481122f61",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "0ca80d8a-e969-4c71-96cf-2ca0d3e75726",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "338e57c3-65f2-4d59-84c5-49a515935f9d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "80e7c2e4-35f3-4bea-9ae1-c52010a24790",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "c1b53e8d-8fc1-4a18-9f5a-2a3434e0771e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6c7712ed-f9c1-44f4-b711-2f3218112422",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "c3eaf09f-201b-489f-8b7b-6f5d58ac54ee",
@@ -8137,67 +9394,133 @@
       ],
       "value": ""
     }, {
+      "id": "4519da89-153a-4823-a44e-aebcf23c8a43",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "93b3cd56-da07-4c25-a60f-2d5ee7921770",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "a4a20c85-dcf8-4ba6-b8a3-d37cb654a9c2",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "d7fe4475-4614-4fa5-9816-f4714ba57641",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f7834e63-d715-4121-937a-a6a6bdc2a071",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "38617b9e-02f4-4265-8b44-d4bb2870d90c",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "3414e4d6-714e-4abd-bdbc-34120757f5a1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "93de21b3-4887-4bd3-b6a1-5ed9c43e6aa0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "c581a711-c844-4a95-8537-5fe001e06099",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "5dd408cf-3f84-4088-960a-65fa965f3adc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "3c0cd66a-550b-48f0-b075-e9d6247919d7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "1c7bf24d-1833-4f79-ab6b-881cba01e43f",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "76c9fa0d-8d9b-41a4-9336-e79313a7edcd",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9e324613-9b5c-454f-b674-48c2e7ea068a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "00b9850e-cc9b-427a-8dc0-0f9c7a494aee",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "2d8f2499-1875-46c2-bc25-0ce25595251f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "05f33113-eecd-4701-bb0e-cd8aac342e3d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "e489e265-8222-43b1-963d-07abc3e806dd",
@@ -8215,64 +9538,110 @@
       "id": "75293071-9b63-482c-aabe-907ebc976f91",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "87346533-a96d-4cd0-aa7c-702249a7e25d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "61d9ad04-34b5-4512-8e59-a4c5d1afb7a0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "35848469-75f8-4531-8917-0b986470b781",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "d34ff504-92a8-4c24-92f8-d171d3ea6926",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6b51dc34-e6db-4a90-a807-fdc7906abdf9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "53163664-4230-4db1-b226-2aa2f95f1306",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "e0448227-2935-45f0-b820-00cdc57177ff",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "46b9cefe-79d4-4a22-a7d6-55cc2d1dce98",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "87a77bbd-4839-497d-9793-92e99f5da0e6",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "d6f602c4-208c-49c9-972f-d1e9adb0ba73",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e3535a04-b427-4a4b-b22b-327d6d5f9ba9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "130618b5-dff0-4bfa-8f30-fdf042703f78",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "ccfb3114-aa70-4f13-9a2f-323768ec1340",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "960ddb9a-8952-4495-87a8-f20fdc096a27",
       "comment": "",
@@ -8452,6 +9821,20 @@
       ],
       "value": ""
     }, {
+      "id": "5f8049ed-dc0b-4414-8cf6-4f41be890d23",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "38f9c60a-24b3-483b-95a9-803b535c9ec6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "28684941-9f39-4450-8180-e7e448c40f5a",
       "comment": "",
       "command": "click",
@@ -8464,17 +9847,34 @@
       ],
       "value": ""
     }, {
+      "id": "afb97760-8310-456d-9dfc-34c264977d56",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "9e876dd9-dc79-4296-a125-208508ebb1d2",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "f21e973e-f7e7-4d78-929c-d0d0fd624e60",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "806e6d08-2f81-4a81-8618-8ea596d6ae4d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "5e3346ad-a6b7-4169-b157-b86eeb3c894a",
@@ -8493,42 +9893,87 @@
       ],
       "value": ""
     }, {
+      "id": "4df036ef-74f7-4c2f-801a-b48834773480",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "49b895f2-f1c3-498c-bc7b-96cae0a33459",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "22988fcc-827b-4111-91e1-067190862738",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "f6c34bbf-c28f-4ed2-9a02-9c98ca21de78",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a2520888-c850-4163-ac95-e7f16caa77fa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "a8139ea5-4be6-41f6-88d9-f8cfd0f9600e",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "523c29a7-8f3e-4720-865b-92c4a8d55a45",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a9111a22-00c1-4638-814f-fb731610e38d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "5e45d71d-e0da-452d-bc31-397bf004f5a5",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "3af33354-2a6a-4a6c-8022-70171003d2a7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "22bebf71-f9e8-4be4-87cc-c56c7e5f8e02",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "a82eef7a-706a-4745-8406-d6658482ba12",
@@ -8547,67 +9992,133 @@
       ],
       "value": ""
     }, {
+      "id": "d3a5a6db-046e-4ba0-a897-a45ca5657907",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "05e1e336-8223-412a-a408-a00400eeb327",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "8d78fc66-17df-424f-b220-2c9446d1fae0",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "e5e7dfb9-329d-44f2-942d-8bcf67ba4d06",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "7894a150-b118-4aa1-a337-3ecab7d31488",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "9071eb89-ed6f-489c-a504-93d1277bb8bb",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "d25e5d13-0b0f-4906-813a-84c46a11ae9d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "42d846c7-09e6-42f5-9e14-de35472aed51",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "e392d7fe-4ad6-44f5-9226-49ed4dd84b06",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "ce41165d-0ca7-423c-ab81-3a97f0211302",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "313164a8-cd03-4700-8c3e-ffa8db521b33",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "ca7d89c5-f79c-4fed-8970-c27efe8340fa",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "25a0253f-0fb7-4687-bae4-fbdc2a8ce2de",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "7dbd7ccb-d32e-4acb-9cca-0ed197267221",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "67f80680-208c-4bcd-aef9-d7f1bb00632c",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "793111d5-b415-4939-a454-920bc43ca0a2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "c526e9d8-ee73-446a-8ee4-aa858fddbac1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "dfdbae11-3535-4199-a26d-faea1be1b66e",
@@ -8625,64 +10136,110 @@
       "id": "a3e5d65e-168c-44bd-8fc0-87794a2e3727",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "89839b75-df73-4a98-b9ea-6d1ad7372c0a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a3784e21-f41e-4c42-a8b9-61edc54d7f8e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "1dafd564-d6e4-4034-8e12-a65e1f134d80",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "cdf0df4f-c827-4252-87ad-dc8fd151ac3e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "0c904c4c-004b-45ff-9f1c-799e6012888c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "8f26f3a6-f8e6-4f7f-877a-b5db17b18e8b",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "1b64e0bd-797a-449f-bba9-700a09e5fdd4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "72f3beff-4622-4381-8d29-558aa3205e86",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "6d103bf7-feab-4185-a026-6c8f62a03279",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "b375f8f2-5e24-4ef4-bd1d-66a676f0da2a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a727f42a-c543-4ec6-a5e4-1fdd6bde3b8c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "07a4f157-fef1-40e4-8ad8-3c65e84427c3",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "f3c674bb-6ff0-4672-b034-b96eebed3b22",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "36b2b9b0-ddff-49fc-a988-9a5e7f58c74b",
       "comment": "",
@@ -8862,6 +10419,20 @@
       ],
       "value": ""
     }, {
+      "id": "c7fd93a6-b9d3-4dea-a0d5-fc6e4405cc77",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "d50b8625-232f-4ae1-acc5-c7f68e357aea",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "f6e17501-c486-403e-bcae-3e413762e596",
       "comment": "",
       "command": "click",
@@ -8874,17 +10445,34 @@
       ],
       "value": ""
     }, {
+      "id": "544dbdfa-12f0-40cd-934f-c5836f33d1d7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "91a87ed6-e896-4889-91f4-bed250cfb658",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "a98b00d6-eae4-48ab-8fdc-d5038d10eed0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "de60a715-6a68-424f-9bb1-af76a15aa7ad",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "bc10b03d-3859-402c-97be-17da6f5abe04",
@@ -8903,42 +10491,87 @@
       ],
       "value": ""
     }, {
+      "id": "cbe73375-638d-4917-89ea-a21d65c1548e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a1731f18-e757-4e4d-8a8a-dc32f09ae3b5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "0a81faba-b7c4-4b10-b7d0-2db12a2a08cb",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "677e976a-e051-454d-900f-d8de8cd58ed3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "4a798b55-e9b7-4939-afe7-108835e2cd1a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "af888679-30a5-421b-9aec-6b7e57842b40",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "7d257655-7b4d-4c2b-930c-8e97bacf04d8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "3f815c93-5902-4f2e-824e-0c308d54f056",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "21393fd1-3142-44c6-98b5-4bb1bf3bc282",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "d7bae222-a599-4cbc-9a37-3900f387d958",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "b8fd97dc-5310-41d5-a280-cf2d43ac91f6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "987bc182-d9d7-4bb7-9215-9f7374de6e9d",
@@ -8957,67 +10590,133 @@
       ],
       "value": ""
     }, {
+      "id": "6b7a243b-ba25-4c3c-9004-0df9b7c5ab8f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "c6ba53a1-66ef-406e-ab00-933fe171a8bd",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "b50eb260-a62f-4e67-9963-0d2194c9e442",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "4b62feb9-ad5d-48e1-b820-49c698c01efe",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "c8e3d19f-9580-4f88-9c44-9d4a6b0ac822",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "7e7b2fae-a679-4d8a-aaac-314acb17cb67",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "201173b2-93ce-429e-b310-a0bff3b7eb58",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f1d8a813-8eea-4499-856b-6ebcffc23ce3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "2aa2a746-aa75-4e4d-a151-c0adc1ed96eb",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "631c74cc-d650-44dd-b370-22336fc814ea",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "6c0f0ddb-898d-485c-9137-81181b3af86c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "92ec1f71-cf2d-4bf4-b553-2bcb73a88a62",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "ad2e0595-57b3-4272-9564-47a3a4718f0d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "df82081f-d5e7-4dc3-9c77-901db8b89bd7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "ac7899b1-5247-48a5-b718-318011638d16",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "f264d0bd-97de-41db-a83e-b5fd6149fd57",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "4fd68b1f-bede-47c8-84cf-b8b650deeff1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "5057619c-2224-4cec-8967-bf0d46f36f36",
@@ -9035,64 +10734,110 @@
       "id": "7356ddec-7676-4aeb-8afc-2471175aeb73",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "98817669-b24e-40d6-8770-845c39a3f0f2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "b49de79a-3ae0-4a38-a4da-1891c7b7e26a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "b9ecf387-43a2-4667-b62f-1d4b974f8256",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "877c2d87-f653-4574-9c63-e9fc1ebc8bf2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9093c3c2-1ca5-4716-a0ea-3ccbde1fb7c6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "55b3b3cd-4345-4c10-9dd3-fcecf3986c46",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "c098e182-fb51-4530-aa3b-79a07558884c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "607a2e61-af2b-4122-8d44-e923018717fc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "58b2f650-1088-4eef-b56e-fc362812c00d",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "86f660f0-3e36-43d2-9a52-a2c818d1ac90",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "4f9e9357-70c0-4636-a3c3-e8529a2a2c2b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "f9debffa-d5c3-43c0-b6f8-034284486ef5",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "d1a1f207-09a2-4b91-8bfa-963ea8fb4a47",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "b642c096-87f2-439d-a846-28f1dba3e2db",
       "comment": "",
@@ -9272,17 +11017,48 @@
       ],
       "value": ""
     }, {
+      "id": "22343ce6-fea3-4472-9de6-4dbe044b3b13",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "0bda7549-46da-4de1-a26e-391342f64805",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e42baf4b-5a44-423c-880d-04c0dfe69aa8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "0febb054-4e55-4f50-8355-58072f6ede00",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "1e2bbab2-9643-4b9b-b774-bda8109d16c4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "bb5e5cc4-7f0b-4248-a40e-b8b4521da95f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "8957e394-d317-424b-9716-99479ada9128",
@@ -9301,6 +11077,13 @@
       ],
       "value": ""
     }, {
+      "id": "378f4234-edfa-430b-a86e-1f2b35a6c8e4",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "351dc7ca-be2f-439e-8d45-468a04336777",
       "comment": "",
       "command": "click",
@@ -9317,29 +11100,57 @@
       ],
       "value": ""
     }, {
+      "id": "c5f037fa-e72f-4674-8f99-4508dd208ee0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "3a2fb5db-9cad-49ba-a7f9-dc6c5712b3b6",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "1a2bafe8-93dd-4efd-8083-4daad37303b0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "812dc9b5-f79f-40e6-bb5a-6ae6b4114529",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "9622d40e-6b20-4fe9-9547-add8f2960ee4",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "dd1742a4-6914-45f9-95a4-c42dd781222d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "ca8eec4a-137b-4485-b60f-abbc2593eef2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "a071511f-e521-47ac-b404-28487690c7f2",
@@ -9358,6 +11169,13 @@
       ],
       "value": ""
     }, {
+      "id": "20424495-aa69-42e1-b763-2b564bbb79a1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "4da74f9f-b8cf-4988-bec3-c3ee76b4b023",
       "comment": "",
       "command": "click",
@@ -9374,29 +11192,57 @@
       ],
       "value": ""
     }, {
+      "id": "83dcbad5-5dff-470d-bd67-629ab60438c0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "1cfc439a-ef89-4370-a4f4-83d1a165d9ad",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "60bea7ec-f5de-45b1-a780-c7fea172c81b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "4ddb734b-db1f-4a33-897b-5efbe7be1e5f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "988d8665-97d6-4fff-88ee-a7289855ccbc",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "50c3ffd0-65df-454c-9e9a-d453e260f12f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "07f2f6ef-034a-49bd-a384-83c76569f0ed",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "1b9c3051-ea82-464b-b6c5-b25051e2b09e",
@@ -9415,6 +11261,13 @@
       ],
       "value": ""
     }, {
+      "id": "51df8416-2c53-41ad-9dc4-037a21634edf",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "b29b0cc4-3435-47e5-bde5-c5fa5ead3403",
       "comment": "",
       "command": "click",
@@ -9431,29 +11284,57 @@
       ],
       "value": ""
     }, {
+      "id": "0ef61733-393b-4e2d-ba72-4e534f38e90e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "b726dffb-db23-4362-8e70-1f10e17757aa",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "cb3ec6d1-b8be-47a7-ac21-b9a8c668f321",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a8c35e99-8110-455f-b6f2-203dbdf6ec12",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "3c6310f7-dd91-40b0-88f3-0b3cc5fc3989",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "a3ba8916-d71b-43c8-8e7b-20d601321f15",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e522e7c8-1623-4c8b-ad1e-01fd59f780a1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "e12d0fe4-a8f7-4888-b083-ee7fe39ba70e",
@@ -9472,6 +11353,13 @@
       ],
       "value": ""
     }, {
+      "id": "edeadf29-4530-4c4f-8094-2f9fbca3f858",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "53ed3ef0-2dcb-47ba-be85-ae7debaa292e",
       "comment": "",
       "command": "click",
@@ -9488,29 +11376,57 @@
       ],
       "value": ""
     }, {
+      "id": "303ac837-0f9b-4c23-be64-6de0a70be287",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "3687a7a1-2f48-4235-b11b-4c592a1390ec",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "ceac79a8-8535-421c-88ff-eb33deb1af52",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "97fc50d7-90b5-4d2e-92c9-e81c7404189c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "eef7d57e-d4b4-4cdd-8633-bc03bd11d56b",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "7f4905eb-99d7-4fa7-8b2f-948cbaf9b160",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "39f6e4e4-67d5-45eb-be9e-e90ac51afca1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "5f46a039-511e-425d-828b-18cf50c9ce62",
@@ -9529,6 +11445,13 @@
       ],
       "value": ""
     }, {
+      "id": "27edb0d0-4d6b-41ca-85a5-adcee7fffa83",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "acfdb379-768f-4286-b41b-c5912836f891",
       "comment": "",
       "command": "click",
@@ -9544,6 +11467,13 @@
         ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "496db137-9756-4361-848e-a8215072875a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "7b7d0e2c-675d-4f1c-81c3-fd2767dca54a",
       "comment": "",
@@ -9561,17 +11491,41 @@
       ],
       "value": ""
     }, {
+      "id": "7f3275fd-85c4-47d8-8ebf-d87e46545a09",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "21a831f2-5203-42eb-a9d5-903c705028cf",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "a8f5d012-45c5-4be6-8f85-f4342f963bb2",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "b7e20f8b-4e54-423b-9eb2-b8e258cae5a5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "cf1c3cf9-b331-4e15-8e66-e181820f3b8a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "8b264f41-44f5-481c-901a-a50a8fa9df87",
@@ -9590,6 +11544,13 @@
       ],
       "value": ""
     }, {
+      "id": "c9e077d3-9e28-4d22-87ac-b5332bd4f1b3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "edfeb8de-00ca-4d47-9480-ab833d8ccdd6",
       "comment": "",
       "command": "click",
@@ -9606,17 +11567,28 @@
       ],
       "value": ""
     }, {
+      "id": "53abbd50-8f3d-454a-9521-65354407545e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "6d038486-29da-4236-9856-3fad070841a9",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "5e811d03-8bd6-4b11-a718-9b01c6c64121",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }]
   }, {
     "id": "5c20e3c0-3819-4e11-8e2c-39cc9db76ae3",
@@ -9789,17 +11761,48 @@
       ],
       "value": ""
     }, {
+      "id": "0521e5c0-13b2-48a9-b15e-dffe87db0c9e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "372de1ad-799d-48bd-a016-0b49f7201e4d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9123dfd0-a6f2-48e9-81d8-d81b415c718e",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "bc4a8d39-8437-4593-b214-e9c2e329542b",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "95fd432c-6832-4587-9f89-3f9a0604247a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "58133ac7-28bc-46e6-aae0-77790a864a0b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "60456a74-5e5f-4721-818b-b39eaf5664cf",
@@ -9817,6 +11820,13 @@
         ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "8fa1a9e7-bb7f-4190-be46-df7e5ca9e937",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
     }]
   }, {
     "id": "239c46cb-f73b-4603-9212-28e1955e0e05",
@@ -9906,7 +11916,7 @@
         ["xpath=//div[@id='login_button_container']/div/form/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": " performance_glitch_user"
+      "value": "performance_glitch_user"
     }, {
       "id": "e17effff-e3eb-4233-a9e9-a70a491cbbbd",
       "comment": "",
@@ -9989,17 +11999,48 @@
       ],
       "value": ""
     }, {
+      "id": "93ed16c6-d5db-4297-91b4-b2d65c2c4a4f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "55c9075c-f6ce-4865-9c1c-b2b937675d88",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aab741d-de0b-4e45-b868-6fa4ec150688",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "8ade949f-37cf-463c-a11d-d48490dac44e",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "ed95131a-9ee8-49b5-87db-faf82cadde22",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "3febb078-e31f-4342-b8e6-03439187bafa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "47943444-192f-4fc9-9bdb-05237f96e840",
@@ -10018,6 +12059,13 @@
       ],
       "value": ""
     }, {
+      "id": "e8b28e46-59d0-4f42-bf31-edc103d5bc43",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "e6c7c2f4-936a-40dc-bbd6-fceb21f8abce",
       "comment": "",
       "command": "click",
@@ -10034,29 +12082,57 @@
       ],
       "value": ""
     }, {
+      "id": "2a80a42a-a37b-468e-9488-5a0d2ab8bf2a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "593aead2-0bb4-4cb7-ade1-45686964c85f",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "5a4e3899-f025-45af-8c3a-c344dabab4c7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "78153741-f4f3-41f7-8a25-ffcb5e4a4419",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "f0e59555-470b-4084-a78f-cf968f631a46",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "8f026502-a67c-467d-9541-e3a41d5e51b1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "4f0dba6b-ff73-49bb-bbaf-5e2b8df7eb56",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "1ffb92a9-9c92-4b8e-b785-e89d035e9aa4",
@@ -10075,6 +12151,13 @@
       ],
       "value": ""
     }, {
+      "id": "c2883758-2c7d-44e6-b0ed-d2bf2e4b5df5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "25b5dc33-1a44-48ac-a95b-90bc16798fee",
       "comment": "",
       "command": "click",
@@ -10091,29 +12174,57 @@
       ],
       "value": ""
     }, {
+      "id": "7349408e-a7b6-4634-8405-ec913cd0350a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "9fb6919f-6bdc-4e6b-9098-abb8f56a9bec",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "80b98b61-e594-46ba-a6a1-9b836edb1b7f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "06285335-b2dd-488a-9a2e-e543166ad525",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "285c6f05-31ae-4788-b9e0-903b308594d0",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "dd0b17e2-fd14-43a2-81e3-3687b36f35f8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5e93e6dd-e57a-4f99-8e33-81ce5893569e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "3754a59c-df48-442e-93fe-789a28ddf63c",
@@ -10132,6 +12243,13 @@
       ],
       "value": ""
     }, {
+      "id": "b46a85a3-dd9f-4454-b2ba-ab85ebca3a07",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "8eacb241-5439-491c-9812-e84c433cbc57",
       "comment": "",
       "command": "click",
@@ -10148,29 +12266,57 @@
       ],
       "value": ""
     }, {
+      "id": "8dd4dcf9-3f9c-402a-8225-def76440492f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "fec939f3-0473-4a65-90c9-ff5452990651",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "176af9db-6bde-4cbf-9840-ddf654afe075",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "791603ee-11a3-4cb9-ac1e-5d7afc3c3ab3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "439a3a46-31c6-4114-ba1c-781bc311ba94",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "c73c9d32-6dd9-4e44-b0d9-f8ce9b53f14b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "2b5ec2a0-3bde-4d36-83b4-f08047d11428",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "7eb233d3-01b5-4a73-9033-a8d4651f4601",
@@ -10189,6 +12335,13 @@
       ],
       "value": ""
     }, {
+      "id": "fe3dfda1-825d-48ec-9436-9ad86f483b08",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "a170b970-5824-466b-bc28-27fff39232d7",
       "comment": "",
       "command": "click",
@@ -10205,29 +12358,57 @@
       ],
       "value": ""
     }, {
+      "id": "31feb149-94b4-4321-8fac-c480400364ce",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "424f5f70-6670-443d-b842-ffb2fcd979dc",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "e12a711b-72d8-4b58-adfb-40e512ff20cb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "cb04942c-0558-461c-9729-04965090579c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "112e1381-bc83-4f07-9dd2-9eee5ff89208",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "20c49503-1fb4-423f-9856-cd9bde84cbac",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "9fa6df33-f8b1-4a5f-8654-44a9c36e4bf9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "c7c28696-e63b-4ffb-adab-ebd182ce49db",
@@ -10246,6 +12427,13 @@
       ],
       "value": ""
     }, {
+      "id": "33a139b4-c031-40b8-b29a-18951011c0b1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "5ec1313e-0802-42d4-b946-f3c252b16ad2",
       "comment": "",
       "command": "click",
@@ -10261,6 +12449,13 @@
         ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "cd7326df-95fb-4a8d-874c-6b234fb62f8b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "881b333d-9f93-458b-bcdb-37d6cd653ee5",
       "comment": "",
@@ -10278,17 +12473,41 @@
       ],
       "value": ""
     }, {
+      "id": "b3bbfc29-7298-4bbe-bd88-61a1424a10ff",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "aaffde48-e337-43bf-9f49-6725b4154217",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "003acd9d-e465-4130-9edd-efa20b06ec69",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "46eb333e-94fd-445c-b10c-9e9f1259dafe",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "7d5721ba-1e5a-4179-b714-051ad1234273",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "abb5d613-117a-43fb-8786-bda13adda924",
@@ -10307,6 +12526,13 @@
       ],
       "value": ""
     }, {
+      "id": "30294f3f-fd7c-4a06-8d2c-bf9082e7de23",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "09d42c78-7d80-4aab-91c9-1a6fd5c104f8",
       "comment": "",
       "command": "click",
@@ -10323,17 +12549,28 @@
       ],
       "value": ""
     }, {
+      "id": "d379f70a-92df-46c5-9fbb-dd78832ca043",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "cf5e4b58-7e5b-4bba-9e2f-9f3b10588e5d",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "1de32fb8-304a-4e28-9d05-e52f257e01f9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }]
   }, {
     "id": "ee0db964-3c8c-4649-b8d2-2c9f1732d382",
@@ -10506,17 +12743,48 @@
       ],
       "value": ""
     }, {
+      "id": "38c8b691-a878-4966-900a-c10c2ae18e6f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a6003791-4b96-4dd3-8eb5-464a9644fffc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b61312b9-8fca-4594-aae9-43dab8da44d6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "6fe5dda4-e7ed-43aa-8fdc-b47da36f8462",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "be72cdb2-2d62-4c86-a223-76d7b3d52670",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "98857fd2-06dd-4130-9cf8-7101afdc260b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "b2190bbe-3fda-44e0-8521-88502f52cb6d",
@@ -10535,6 +12803,13 @@
       ],
       "value": ""
     }, {
+      "id": "b2180064-670e-4b6c-ad4e-0923afbff87b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "f0b9b07b-dc60-40d1-95b8-29022754e9f4",
       "comment": "",
       "command": "click",
@@ -10551,29 +12826,57 @@
       ],
       "value": ""
     }, {
+      "id": "2d29cc8a-c9cd-4006-b41f-4741c477e1e2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "6d721013-d4b6-4c46-95ae-d7e37d3b5d44",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "3e4c3856-0ea2-4bc1-953c-48eeefdd99a8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "b756e78f-b8a0-4b72-b92c-e608f7ae1ab2",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "922a7c55-f2ce-4ba6-a2c8-1dff3cc6f277",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "4cce845b-74ef-4800-a632-1d17f03ecf67",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "18e1559a-f053-4614-a08f-0d08e1adfd4b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "606367ba-7d96-4583-bb4c-486fced094b5",
@@ -10592,6 +12895,13 @@
       ],
       "value": ""
     }, {
+      "id": "71b04ed7-619e-4010-9645-7dd54afd3aa9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "9aeb7fd5-1d8b-41ca-8c2f-19012338879d",
       "comment": "",
       "command": "click",
@@ -10608,29 +12918,57 @@
       ],
       "value": ""
     }, {
+      "id": "9c883ef8-3e4e-4909-a8f8-c4e7125c715d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "320282cc-37ea-4028-9674-db529d2b9f94",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "d4ebf350-2bff-43a2-b1fc-39207f186a38",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "5829fda4-07cf-405e-b8d1-919de615ab4b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "0833f338-718c-41a5-b907-c304f6202780",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "596295d8-6d13-49e7-a593-fe5c1aa6e41a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "29a55d65-b66f-4338-bc70-0e0c74c69d2f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "996b7d61-4558-4cbe-98ad-00504d018842",
@@ -10648,6 +12986,13 @@
         ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "b6aa6552-10ed-4436-b794-7971df5a73b8",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
     }]
   }, {
     "id": "aed620d8-b88f-4f33-b8bd-2a41886d5186",
@@ -10820,17 +13165,48 @@
       ],
       "value": ""
     }, {
+      "id": "5bd4e471-1eb4-4369-ae7c-7458b72364f7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "706638e0-2966-400c-99ac-0a8632faae0f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e86625c3-a33f-4481-97b6-1ddbce8da3a1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "e616e189-38ac-4324-b7ef-ecde0136128d",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "ec048006-eb18-401c-a14d-d6a8e6b9144c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "1ef3ee0b-5846-4019-a12f-9ed91952e776",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "9bc80d1c-9952-444d-a6a6-5da2bab652d6",
@@ -10849,6 +13225,13 @@
       ],
       "value": ""
     }, {
+      "id": "ce71d238-7ef4-440f-8ce1-e1245b7b0b4c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "ac8a9e0a-c49a-49ef-9bd6-f01efe55ae9b",
       "comment": "",
       "command": "click",
@@ -10865,29 +13248,57 @@
       ],
       "value": ""
     }, {
+      "id": "1c6f340d-505b-4581-949c-03c7f39de70a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "0e16b85d-99f0-407c-9c13-439e4d131ad6",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "dde7575b-45b5-40e5-bb92-b5e866ae62fc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "950cb5e7-a56f-4493-8454-1b6db33382bb",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_0_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "30144454-321a-4473-8e95-606156610087",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]",
+      "target": "id=item_0_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]", "css:data-attr"],
-        ["css=#item_0_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bike Light']", "xpath:img"],
-        ["xpath=//a[@id='item_0_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[2]/div/a/img", "xpath:position"]
+        ["id=item_0_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "977da85f-73b6-465e-a964-b018a4882178",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "06ec42c8-b9bf-4d22-bfe3-5e258474588d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "45fb15d5-402e-42d6-9910-331e97832563",
@@ -10906,6 +13317,13 @@
       ],
       "value": ""
     }, {
+      "id": "bfb0978c-ff8d-42ea-894d-cff152b1587b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "e141b672-8925-46d9-aeed-7409930322b2",
       "comment": "",
       "command": "click",
@@ -10922,29 +13340,57 @@
       ],
       "value": ""
     }, {
+      "id": "35db3ef7-acd5-4786-bc85-36d4fcd18634",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "b7959e9a-4426-4eba-8529-018811a48374",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "8202b9e1-8f94-4e70-a31c-812f711ed190",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "cd4e68f2-d93b-4911-9193-12e46f0ce9a7",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_1_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "d2045e67-35d5-49dd-8d50-144c57cf3b31",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]",
+      "target": "id=item_1_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-bolt-t-shirt-img\"]", "css:data-attr"],
-        ["css=#item_1_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Bolt T-Shirt']", "xpath:img"],
-        ["xpath=//a[@id='item_1_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/a/img", "xpath:position"]
+        ["id=item_1_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "3018fee0-a01d-4a3d-a9dc-85cd523ca9ef",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f3089b15-c770-45c9-97ed-045d0981e3dc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "282b8ae8-9ad6-4c56-8f7d-ba51e1723fcf",
@@ -10963,6 +13409,13 @@
       ],
       "value": ""
     }, {
+      "id": "b149893c-2b86-4e73-b546-e16c68b60ee3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "e88db2c8-b03c-40fb-8822-7e30c1a1d71d",
       "comment": "",
       "command": "click",
@@ -10979,29 +13432,57 @@
       ],
       "value": ""
     }, {
+      "id": "dcf07e04-6c88-4772-8129-5b33783dfdf0",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "057986e6-7030-468e-85a7-ae15a5c3fdc9",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "880f13b7-d42c-48d5-a48f-b24cc373f87d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "8e3313d5-c8e1-45c0-828a-d1d0a2a88655",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_5_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "50cd1f06-5514-4c2e-aae9-94b5b0a6ba89",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]",
+      "target": "id=item_5_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-fleece-jacket-img\"]", "css:data-attr"],
-        ["css=#item_5_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Fleece Jacket']", "xpath:img"],
-        ["xpath=//a[@id='item_5_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[4]/div/a/img", "xpath:position"]
+        ["id=item_5_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "69e32ea8-895f-4823-ba55-651df69d5a36",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "43eb7ea7-cf29-4d65-bb2e-c868f33c1777",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "41f9993c-bfc3-42f8-9b08-2e4370d38f7a",
@@ -11020,6 +13501,13 @@
       ],
       "value": ""
     }, {
+      "id": "a23c84fe-8fd3-4379-862b-9d48ab8918a9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "cce0cb09-dc39-4d59-b9a6-6baa84e9dc5e",
       "comment": "",
       "command": "click",
@@ -11036,29 +13524,57 @@
       ],
       "value": ""
     }, {
+      "id": "2e7c6199-e241-40d7-95a8-d7c1938bd1c9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "95e7c8d2-f562-410f-b8d6-56d4cb59ebdf",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "cb203fc7-e74e-4f53-a377-08a41dbb4fe5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e5b6a4e2-9007-4767-964c-8b7d9717e005",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_2_img_link",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "0562488d-640d-4bde-9909-491d69505616",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]",
+      "target": "id=item_2_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-onesie-img\"]", "css:data-attr"],
-        ["css=#item_2_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Onesie']", "xpath:img"],
-        ["xpath=//a[@id='item_2_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[5]/div/a/img", "xpath:position"]
+        ["id=item_2_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "cf3d7c56-89bc-44b6-bb78-a017b65ea2cc",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a78b0582-111f-4f7d-90d0-81ec0006a852",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "342e6ca7-78b7-46c1-b49f-1cb7afe7b96f",
@@ -11077,6 +13593,13 @@
       ],
       "value": ""
     }, {
+      "id": "91955b59-09f4-4d63-875f-301dd27903bf",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "5e8f12f2-d113-4f1b-961c-03fbc10f7586",
       "comment": "",
       "command": "click",
@@ -11092,6 +13615,13 @@
         ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
       ],
       "value": ""
+    }, {
+      "id": "a6bdac6e-0b3f-411d-b9fc-5694929ee6a9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
     }, {
       "id": "793e9e57-7b92-4735-8efc-400a99ba0440",
       "comment": "",
@@ -11109,17 +13639,41 @@
       ],
       "value": ""
     }, {
+      "id": "824aaa47-4b0f-4811-83de-8b4bcd1e3e25",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "892371d4-fab3-41f3-aa82-0aabcea91200",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_3_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "ea2a97a5-74d4-41f3-8708-790d381df459",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]",
+      "target": "id=item_3_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-test.allthethings()-t-shirt-(red)-img\"]", "css:data-attr"],
-        ["css=#item_3_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Test.allTheThings() T-Shirt (Red)']", "xpath:img"],
-        ["xpath=//a[@id='item_3_img_link']/img", "xpath:idRelative"],
-        ["xpath=//div[6]/div/a/img", "xpath:position"]
+        ["id=item_3_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "3cc83f1f-a1b7-42cc-824e-4c844afcf10f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "a6f51ee9-5bd9-4458-a56a-332c4a9d423a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "e32e1e93-1e15-42b7-a58e-aa22d06b8a69",
@@ -11138,6 +13692,13 @@
       ],
       "value": ""
     }, {
+      "id": "e9ac41a0-707a-4247-a6ea-3cd12f71cfd5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"remove\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "f329808d-9cfa-4881-8c05-a37af5122348",
       "comment": "",
       "command": "click",
@@ -11154,17 +13715,28 @@
       ],
       "value": ""
     }, {
+      "id": "68a1101d-31a3-4cc1-8afb-c76d9841d4ea",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=[data-test=\"add-to-cart\"]",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "f4a711d1-9228-409b-a454-37445c346f8c",
       "comment": "",
       "command": "click",
-      "target": "css=.back-image",
+      "target": "id=back-to-products",
       "targets": [
-        ["css=.back-image", "css:finder"],
-        ["xpath=//img[@alt='Go back']", "xpath:img"],
-        ["xpath=//button[@id='back-to-products']/img", "xpath:idRelative"],
-        ["xpath=//button/img", "xpath:position"]
+        ["id=back-to-products", "id"]
       ],
       "value": ""
+    }, {
+      "id": "b9a4a1ae-8da5-4642-b745-47724c914ade",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
     }]
   }, {
     "id": "816ace3f-5a37-41a3-8667-2e1c95ff39d6",
@@ -11337,17 +13909,48 @@
       ],
       "value": ""
     }, {
+      "id": "c3d63d8f-1efb-4807-8033-8236bb7b2b94",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f70c42b5-7b44-4c02-a9f5-c01463c89ce8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57ded873-00cf-46f8-aadf-b483ca6b2491",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "10b5022d-3786-4070-b7d5-f2472d1237a9",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "9618f814-9966-4a52-907a-0d8bdcdcff27",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "e15205cb-b3f1-4f5c-960a-ff16f43cc2fb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "a8556e54-989b-45de-a6dc-032cf1d02810",
@@ -11528,17 +14131,48 @@
       ],
       "value": ""
     }, {
+      "id": "40cb4e3c-69cb-43fb-ae45-e192a44a4cd9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "f6963637-11e1-4e88-bfae-f77169194a7a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91c5df21-84c0-47a6-91d1-c97f61c776dd",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "b92ccd49-7eba-454a-aa8c-8cf56ae9489d",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "2fa068a2-3dcb-4e92-83df-8e5d1968c77d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "fc6948b2-a460-4710-9327-972e9fb11faf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "37a4f810-1fc5-475b-80bf-9b5303478c7c",
@@ -11719,17 +14353,48 @@
       ],
       "value": ""
     }, {
+      "id": "66f04024-94a9-499b-9498-b97f48e3c184",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "693991c6-c4fc-46b1-a0ab-a4845afa9b90",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56763968-e10c-4e67-9872-beef3f02e1fe",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "fa7eb43d-0818-44ae-9c7f-db3d2a87c217",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "8191da7a-f965-4539-a3bb-839e1a8590f1",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "31cac918-a307-4ca2-bd8f-a5c3b4995543",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "188c32a2-11d8-47f8-8e5a-4c238dbd0eaf",
@@ -11910,17 +14575,48 @@
       ],
       "value": ""
     }, {
+      "id": "bade74b8-6664-43dd-8f6d-c5d0882fe17d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "680eab96-45db-4133-92fb-9ad3afe64a1c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caa75b1b-0f28-47de-ba22-381074fe3281",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "589c23f6-82a0-4768-b974-c2a4b105cad1",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "9e0bed35-40d2-4e47-9f1a-727a259f35a5",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "25dd01eb-0579-452b-8789-cdc3948eaa1c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "b91ab94c-085d-4ea3-9b00-fda9a419f25d",
@@ -12101,17 +14797,48 @@
       ],
       "value": ""
     }, {
+      "id": "de810489-dcfe-4542-8a69-6a7bf3ebc75b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "bc4385c7-57ba-4320-84cb-3f9c5b29628b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=shopping_cart_container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6826b112-b41f-4bb5-b5ce-b85e3264dbc9",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=item_4_img_link",
+      "targets": [],
+      "value": "15000"
+    }, {
       "id": "984314c6-52b9-4b2c-812b-3cb46d5e1481",
       "comment": "",
       "command": "click",
-      "target": "css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]",
+      "target": "id=item_4_img_link",
       "targets": [
-        ["css=*[data-test=\"inventory-item-sauce-labs-backpack-img\"]", "css:data-attr"],
-        ["css=#item_4_img_link > .inventory_item_img", "css:finder"],
-        ["xpath=//img[@alt='Sauce Labs Backpack']", "xpath:img"],
-        ["xpath=//a[@id='item_4_img_link']/img", "xpath:idRelative"],
-        ["xpath=//a/img", "xpath:position"]
+        ["id=item_4_img_link", "id"]
       ],
+      "value": ""
+    }, {
+      "id": "8ac562f3-3bf7-495c-a29a-b978aa939a05",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=back-to-products",
+      "targets": [],
+      "value": "15000"
+    }, {
+      "id": "599122b7-c617-4e5b-90d0-30aabd4886f2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=back-to-products",
+      "targets": [],
       "value": ""
     }, {
       "id": "394031d5-5fd1-40b7-8a24-473b2fe86c21",
@@ -12128,7 +14855,64 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": []
+    "tests": [
+      "b910729e-c113-42d8-b671-815ca2669f39",
+      "2d317052-d390-4429-89fd-35bbf9374cda",
+      "c177810e-236f-4635-9f55-c08903dc6932",
+      "579b7430-15d0-4916-948c-a5f17433931c",
+      "38c56b6b-01df-45f4-a257-ff1bad8d0488",
+      "81082c48-f5ee-45e6-b12b-dcff2254732c",
+      "1eb7e51f-81ed-496f-9d3a-553afbb4909d",
+      "6314376b-1dcf-44c9-aaa4-851fddf220fe",
+      "ba05e44c-1b2d-4aa9-9c5d-2b4bfca1f5f6",
+      "2edb334a-d3bc-466b-a947-b5fd3aa92b88",
+      "15be01b9-1e49-427d-92cd-d6b61b59e3bc",
+      "63ee7df4-5979-4b62-888a-fbf2dd3a845f",
+      "1afe5754-6283-4ea1-a83a-a5438c236eb9",
+      "bdf89403-e908-4625-8461-23fff9fad671",
+      "76074391-93f3-40c4-aa85-22871d94a948",
+      "87c59540-7f7e-42b5-a28d-1467c759434b",
+      "342b8cea-4105-4346-ac24-d573e0d407a0",
+      "9e347f07-c333-40c8-bf37-4ebb12c72085",
+      "3d6c10b0-25f7-449e-8f48-de8d8e1dea86",
+      "d904cdfb-0fc5-499e-80ea-01023f5c9492",
+      "719555f6-f35c-4260-a48c-1e6863311c43",
+      "a2a8f3a6-6da2-4d01-b60f-b7553963b6ca",
+      "bf751799-64aa-4a32-9263-a7da606c7e78",
+      "97acb116-2302-48ef-b560-bb9880c54387",
+      "7601ed30-75dc-4963-9d2b-8bfd410e818e",
+      "2c465f60-0896-4310-8cbf-b3892d47e2f8",
+      "d9d8f947-e202-449f-910a-d57f00fa6e1f",
+      "6037c24c-4fb1-42ba-b2e4-70f08f2e6b10",
+      "90ed2128-0440-4875-aa83-8b47b82f8aea",
+      "45290344-cc4c-4068-9783-7eb9ee433fe5",
+      "c6b838a6-83d6-4e9a-90e8-15e82fd31196",
+      "390191a8-1f5d-4b3a-884f-b99b8523c836",
+      "dfba945d-e192-47aa-a26a-0b93ca2fd2fb",
+      "08ac3868-a03a-4495-a9ce-44dcdf90c90d",
+      "74462485-b0ab-4d44-bae7-7a18509f7720",
+      "e0a2c1e3-120a-43e0-82fa-202f8774662e",
+      "ba417b8f-f2d9-41a9-8559-eb5edb06fe24",
+      "eb0724f8-39f5-4d71-b8a6-75a005ee0bd1",
+      "7ee6376d-871f-420a-9ac7-e813f5ab98a6",
+      "85ae1c89-8071-4f6a-a939-33a61572e84f",
+      "7a966608-2f33-41a7-908a-7767437dfe7f",
+      "fbf7755b-b94c-4819-84b8-8f6524f8017c",
+      "a780afb2-43dc-4aa9-bfcd-8661f18db16b",
+      "29dd4712-d422-47f5-84a9-bf69e72594da",
+      "77b74879-5c74-456b-8b10-eedf6683f990",
+      "b2513a88-a13c-43db-bb7e-a3781ad7ad89",
+      "23c8593c-87eb-4214-9ac4-b5b0b2764002",
+      "5c20e3c0-3819-4e11-8e2c-39cc9db76ae3",
+      "239c46cb-f73b-4603-9212-28e1955e0e05",
+      "ee0db964-3c8c-4649-b8d2-2c9f1732d382",
+      "aed620d8-b88f-4f33-b8bd-2a41886d5186",
+      "816ace3f-5a37-41a3-8667-2e1c95ff39d6",
+      "7aa69bee-e4b5-4d18-b0d1-a558688bc8bb",
+      "eba03fbf-c531-4e76-a75a-095e15a80a70",
+      "309d8f87-de1d-450b-931c-eeb31c042194",
+      "032cc06e-3058-4389-ba46-bc6a88bae507"
+    ]
   }],
   "urls": ["https://www.saucedemo.com/"],
   "plugins": []

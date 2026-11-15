@@ -1,0 +1,4 @@
+node_modules/
+.side-runner/
+.selenium-cache/
+Results/Edge-*/
