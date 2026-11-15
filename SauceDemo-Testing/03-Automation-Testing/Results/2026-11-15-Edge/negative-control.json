@@ -1,0 +1,66 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 1,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1794715899205,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1393,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Actual value 'Epic sadface: Sorry, this user has been locked out.' did not match 'This deliberately incorrect error message must fail.' during assertText:css=[data-test=\"error\"]:This deliberately incorrect error message must fail.\n    at WebDriverExecutor.doAssertText (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\webdriver.ts:1223:13)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at CommandNode._executeCommand (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:152:18)\n    at CommandNode.execute (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:112:20)\n    at Playback._executeCommand (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:578:22)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:456:18)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at Playback._executionLoop (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:513:14)\n    at <workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback.ts:364:9"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_LA04",
+          "startAt": 1794715899635
+        }
+      ],
+      "endTime": 1794715901063,
+      "message": "  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_LA04\n\n    Actual value 'Epic sadface: Sorry, this user has been locked out.' did not match 'This deliberately incorrect error message must fail.' during assertText:css=[data-test=\"error\"]:This deliberately incorrect error message must fail.\n\n      at WebDriverExecutor.doAssertText (../node_modules/@seleniumhq/side-runtime/src/webdriver.ts:1223:13)\n      at CommandNode._executeCommand (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:152:18)\n      at CommandNode.execute (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:112:20)\n      at Playback._executeCommand (../node_modules/@seleniumhq/side-runtime/src/playback.ts:578:22)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:456:18)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at Playback._executionLoop (../node_modules/@seleniumhq/side-runtime/src/playback.ts:513:14)\n      at ../node_modules/@seleniumhq/side-runtime/src/playback.ts:364:9\n",
+      "name": "<workspace>\\work\\automation-run\\runner-engine\\dist\\main.test.js",
+      "startTime": 1794715899329,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

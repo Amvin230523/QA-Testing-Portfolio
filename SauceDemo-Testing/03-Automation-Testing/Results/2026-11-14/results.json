@@ -1,0 +1,1096 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 11,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 45,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 56,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1794668710884,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 871,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA02",
+          "startAt": 1794668711321
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 451,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA01",
+          "startAt": 1794668712193
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1388,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA03",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA03",
+          "startAt": 1794668712645
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1381,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA04",
+          "startAt": 1794668714033
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1570,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA05",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA05",
+          "startAt": 1794668715414
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 6566,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA06",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA06",
+          "startAt": 1794668716984
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1288,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA09",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA09",
+          "startAt": 1794668723550
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1215,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA10",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA10",
+          "startAt": 1794668724838
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1146,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA11",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA11",
+          "startAt": 1794668726054
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1340,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA12",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA12",
+          "startAt": 1794668727201
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1162,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA13",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA13",
+          "startAt": 1794668728542
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1408,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA14",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA14",
+          "startAt": 1794668729704
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1661,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LO01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LO01",
+          "startAt": 1794668731112
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1722,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LO02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LO02",
+          "startAt": 1794668732773
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 6753,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LO03",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LO03",
+          "startAt": 1794668734495
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1867,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PA01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PA01",
+          "startAt": 1794668741248
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1309,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA07",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA07",
+          "startAt": 1794668743116
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1331,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LA08",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LA08",
+          "startAt": 1794668744425
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1653,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LO04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LO04",
+          "startAt": 1794668745756
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1692,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_LO05",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_LO05",
+          "startAt": 1794668747409
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16572,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"logout-sidebar-link\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PA02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PA02",
+          "startAt": 1794668749101
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1454,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD01",
+          "startAt": 1794668765686
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1327,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD02",
+          "startAt": 1794668767140
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1308,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD03",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD03",
+          "startAt": 1794668768468
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1275,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD04",
+          "startAt": 1794668769776
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1294,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD05",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD05",
+          "startAt": 1794668771051
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1284,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD06",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD06",
+          "startAt": 1794668772346
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1310,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD07",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD07",
+          "startAt": 1794668773631
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 6447,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD08",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD08",
+          "startAt": 1794668774941
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1365,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD09",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD09",
+          "startAt": 1794668781388
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1357,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD10",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD10",
+          "startAt": 1794668782753
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1314,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD11",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD11",
+          "startAt": 1794668784110
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1362,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD12",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD12",
+          "startAt": 1794668785424
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 6351,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD13",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD13",
+          "startAt": 1794668786786
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1332,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD014",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD014",
+          "startAt": 1794668793137
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1295,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD15",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD15",
+          "startAt": 1794668794469
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1348,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD16",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD16",
+          "startAt": 1794668795764
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1428,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD17",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD17",
+          "startAt": 1794668797113
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1322,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD019",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD019",
+          "startAt": 1794668798541
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1276,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD18",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD18",
+          "startAt": 1794668799864
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1323,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PD20",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_PD20",
+          "startAt": 1794668801140
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16593,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PQ01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PQ01",
+          "startAt": 1794668802463
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16615,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n    at Timeout.<anonymous> (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PQ02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PQ02",
+          "startAt": 1794668819057
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 21560,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PQ03",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PQ03",
+          "startAt": 1794668835672
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16574,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PQ04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PQ04",
+          "startAt": 1794668857233
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16752,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PQ05",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PQ05",
+          "startAt": 1794668873807
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16590,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"remove\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB01",
+          "startAt": 1794668890559
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16585,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"add-to-cart\"]:\n    at Timeout.<anonymous> (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB02",
+          "startAt": 1794668907150
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 26666,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"add-to-cart\"]:\n    at Timeout.<anonymous> (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB03",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB03",
+          "startAt": 1794668923735
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16707,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"add-to-cart\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB04",
+          "startAt": 1794668950402
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16574,
+          "failing": false,
+          "failureDetails": [
+            {}
+          ],
+          "failureMessages": [
+            "Error: Operation timed out during click:css=*[data-test=\"remove\"]:\n    at Timeout._onTimeout (<workspace>\\work\\automation-run\\node_modules\\@seleniumhq\\side-runtime\\src\\playback-tree\\command-node.ts:187:13)\n    at listOnTimeout (node:internal/timers:685:17)\n    at processTimers (node:internal/timers:618:7)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB05",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB05",
+          "startAt": 1794668967110
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1381,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_RS01",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_RS01",
+          "startAt": 1794668983685
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1478,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_RS02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_RS02",
+          "startAt": 1794668985067
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1521,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_RS04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_RS04",
+          "startAt": 1794668986546
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 1395,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_RS05",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_RS05",
+          "startAt": 1794668988067
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 6536,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_RS03",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Running test TC_RS03",
+          "startAt": 1794668989462
+        }
+      ],
+      "endTime": 1794668996006,
+      "message": "  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PA02\n\n    Operation timed out during click:css=*[data-test=\"logout-sidebar-link\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PQ01\n\n    Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PQ02\n\n    Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n\n      at Timeout.<anonymous> (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PQ03\n\n    Operation timed out during click:css=*[data-test=\"inventory-item-sauce-labs-bike-light-img\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PQ04\n\n    Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PQ05\n\n    Operation timed out during click:css=*[data-test=\"back-to-products\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB01\n\n    Operation timed out during click:css=*[data-test=\"remove\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB02\n\n    Operation timed out during click:css=*[data-test=\"add-to-cart\"]:\n\n      at Timeout.<anonymous> (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB03\n\n    Operation timed out during click:css=*[data-test=\"add-to-cart\"]:\n\n      at Timeout.<anonymous> (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB04\n\n    Operation timed out during click:css=*[data-test=\"add-to-cart\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB05\n\n    Operation timed out during click:css=*[data-test=\"remove\"]:\n\n      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)\n",
+      "name": "<workspace>\\work\\automation-run\\runner-engine\\dist\\main.test.js",
+      "startTime": 1794668711002,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

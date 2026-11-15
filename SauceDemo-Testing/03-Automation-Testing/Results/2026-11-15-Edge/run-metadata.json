@@ -1,0 +1,16 @@
+{
+  "startedSingapore": "2026-11-15T12:07:19.541000+08:00",
+  "browser": "Microsoft Edge 157.0.4341.60 (headless)",
+  "runner": "selenium-side-runner 4.1.0-beta.3",
+  "seleniumWebDriver": "4.52.0",
+  "node": "24.22.1",
+  "elementTimeoutMs": 15000,
+  "perTestTimeoutMs": 60000,
+  "workers": 1,
+  "automaticRetries": 0,
+  "recordingCount": 56,
+  "commandCount": 1383,
+  "explicitAssertionCommands": 136,
+  "sourceSha256": "1cadb20754eff343923a9b53de26b53e58ecb2d6942b6110920ccd32d811678a",
+  "baselineSourceSha256": "207dcc6b103a3ecd7fe4c3cd6ab6ff299374086eda4af2816aee248992398405"
+}

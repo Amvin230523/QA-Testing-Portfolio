@@ -1,0 +1,1243 @@
+  console.info
+
+              Project TC_ISTURIS_ACT3 doesn't have any suites matching filter .*,
+              attempting to iterate all tests in project
+
+      at info (src/main.test.ts:184:17)
+
+info: Running test TC_LA02
+info: ✓ TC_LA02 › open | /
+info: ✓ TC_LA02 › setWindowSize | 971x867
+info: ✓ TC_LA02 › click | css=*[data-test="username"]
+info: ✓ TC_LA02 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_LA02 › click | css=*[data-test="password"]
+info: ✓ TC_LA02 › type | css=*[data-test="password"] | secret_sauce
+info: Finished test TC_LA02 Success
+info: Running test TC_LA01
+info: Finished test TC_LA01 Success
+info: Running test TC_LA03
+info: ✓ TC_LA03 › open | https://www.saucedemo.com/
+info: ✓ TC_LA03 › setWindowSize | 971x867
+info: ✓ TC_LA03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA03 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA03 › click | css=*[data-test="username"]
+info: ✓ TC_LA03 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_LA03 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA03 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA03 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA03 › click | css=*[data-test="password"]
+info: ✓ TC_LA03 › click | css=*[data-test="password"]
+info: ✓ TC_LA03 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA03 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA03 › close
+info: Finished test TC_LA03 Success
+info: Running test TC_LA04
+info: ✓ TC_LA04 › open | https://www.saucedemo.com/
+info: ✓ TC_LA04 › setWindowSize | 971x867
+info: ✓ TC_LA04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA04 › click | css=*[data-test="username"]
+info: ✓ TC_LA04 › type | css=*[data-test="username"] | locked_out_user
+info: ✓ TC_LA04 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA04 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA04 › click | css=*[data-test="password"]
+info: ✓ TC_LA04 › click | css=*[data-test="password"]
+info: ✓ TC_LA04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA04 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA04 › close
+info: Finished test TC_LA04 Success
+info: Running test TC_LA05
+info: ✓ TC_LA05 › open | https://www.saucedemo.com/
+info: ✓ TC_LA05 › setWindowSize | 971x867
+info: ✓ TC_LA05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA05 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA05 › click | css=*[data-test="username"]
+info: ✓ TC_LA05 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_LA05 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA05 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA05 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA05 › click | css=*[data-test="password"]
+info: ✓ TC_LA05 › click | css=*[data-test="password"]
+info: ✓ TC_LA05 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA05 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA05 › close
+info: Finished test TC_LA05 Success
+info: Running test TC_LA06
+info: ✓ TC_LA06 › open | https://www.saucedemo.com/
+info: ✓ TC_LA06 › setWindowSize | 971x867
+info: ✓ TC_LA06 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA06 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA06 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA06 › click | css=*[data-test="username"]
+info: ✓ TC_LA06 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_LA06 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA06 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA06 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA06 › click | css=*[data-test="password"]
+info: ✓ TC_LA06 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA06 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA06 › close
+info: Finished test TC_LA06 Success
+info: Running test TC_LA09
+info: ✓ TC_LA09 › open | https://www.saucedemo.com/
+info: ✓ TC_LA09 › setWindowSize | 971x867
+info: ✓ TC_LA09 › click | css=*[data-test="username"]
+info: ✓ TC_LA09 › type | css=*[data-test="username"] | boomtarattarat
+info: ✓ TC_LA09 › click | css=*[data-test="password"]
+info: ✓ TC_LA09 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA09 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA09 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA09 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA09 › click | css=*[data-test="password"]
+info: ✓ TC_LA09 › click | css=*[data-test="password"]
+info: ✓ TC_LA09 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA09 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA09 › close
+info: Finished test TC_LA09 Success
+info: Running test TC_LA10
+info: ✓ TC_LA10 › open | https://www.saucedemo.com/
+info: ✓ TC_LA10 › setWindowSize | 971x867
+info: ✓ TC_LA10 › click | css=*[data-test="password"]
+info: ✓ TC_LA10 › type | css=*[data-test="password"] | boomtarattarat
+info: ✓ TC_LA10 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA10 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA10 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA10 › click | css=*[data-test="username"]
+info: ✓ TC_LA10 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_LA10 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA10 › close
+info: Finished test TC_LA10 Success
+info: Running test TC_LA11
+info: ✓ TC_LA11 › open | https://www.saucedemo.com/
+info: ✓ TC_LA11 › setWindowSize | 971x867
+info: ✓ TC_LA11 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA11 › close
+info: Finished test TC_LA11 Success
+info: Running test TC_LA12
+info: ✓ TC_LA12 › open | https://www.saucedemo.com/
+info: ✓ TC_LA12 › setWindowSize | 971x867
+info: ✓ TC_LA12 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA12 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA12 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA12 › click | css=*[data-test="password"]
+info: ✓ TC_LA12 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA12 › click | css=*[data-test="username"]
+info: ✓ TC_LA12 › click | css=.login_wrapper-inner
+info: ✓ TC_LA12 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA12 › close
+info: Finished test TC_LA12 Success
+info: Running test TC_LA13
+info: ✓ TC_LA13 › open | https://www.saucedemo.com/
+info: ✓ TC_LA13 › setWindowSize | 971x867
+info: ✓ TC_LA13 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA13 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA13 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA13 › click | css=*[data-test="username"]
+info: ✓ TC_LA13 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_LA13 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA13 › close
+info: Finished test TC_LA13 Success
+info: Running test TC_LA14
+info: ✓ TC_LA14 › open | https://www.saucedemo.com/
+info: ✓ TC_LA14 › setWindowSize | 971x867
+info: ✓ TC_LA14 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA14 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA14 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA14 › click | css=*[data-test="username"]
+info: ✓ TC_LA14 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_LA14 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA14 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA14 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA14 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA14 › click | css=*[data-test="password"]
+info: ✓ TC_LA14 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA14 › click | css=.login_wrapper-inner
+info: ✓ TC_LA14 › close
+info: Finished test TC_LA14 Success
+info: Running test TC_LO01
+info: ✓ TC_LO01 › open | https://www.saucedemo.com/
+info: ✓ TC_LO01 › setWindowSize | 971x867
+info: ✓ TC_LO01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO01 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LO01 › click | css=*[data-test="username"]
+info: ✓ TC_LO01 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_LO01 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO01 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO01 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LO01 › click | css=*[data-test="password"]
+info: ✓ TC_LO01 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LO01 › click | css=*[data-test="login-button"]
+info: ✓ TC_LO01 › click | id=react-burger-menu-btn
+info: ✓ TC_LO01 › click | css=*[data-test="logout-sidebar-link"]
+info: ✓ TC_LO01 › close
+info: Finished test TC_LO01 Success
+info: Running test TC_LO02
+info: ✓ TC_LO02 › open | https://www.saucedemo.com/
+info: ✓ TC_LO02 › setWindowSize | 971x867
+info: ✓ TC_LO02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LO02 › click | css=*[data-test="username"]
+info: ✓ TC_LO02 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_LO02 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO02 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LO02 › click | css=*[data-test="password"]
+info: ✓ TC_LO02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LO02 › click | css=*[data-test="login-button"]
+info: ✓ TC_LO02 › click | id=react-burger-menu-btn
+info: ✓ TC_LO02 › click | css=*[data-test="logout-sidebar-link"]
+info: ✓ TC_LO02 › close
+info: Finished test TC_LO02 Success
+info: Running test TC_LO03
+info: ✓ TC_LO03 › open | https://www.saucedemo.com/
+info: ✓ TC_LO03 › setWindowSize | 971x867
+info: ✓ TC_LO03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO03 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LO03 › click | css=*[data-test="username"]
+info: ✓ TC_LO03 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_LO03 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO03 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO03 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LO03 › click | css=*[data-test="password"]
+info: ✓ TC_LO03 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LO03 › click | css=*[data-test="login-button"]
+info: ✓ TC_LO03 › click | id=react-burger-menu-btn
+info: ✓ TC_LO03 › click | css=*[data-test="logout-sidebar-link"]
+info: ✓ TC_LO03 › close
+info: Finished test TC_LO03 Success
+info: Running test TC_PA01
+info: ✓ TC_PA01 › open | https://www.saucedemo.com/
+info: ✓ TC_PA01 › setWindowSize | 971x867
+info: ✓ TC_PA01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PA01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PA01 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PA01 › click | css=*[data-test="username"]
+info: ✓ TC_PA01 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PA01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PA01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PA01 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PA01 › click | css=*[data-test="password"]
+info: ✓ TC_PA01 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PA01 › click | css=*[data-test="login-button"]
+info: ✓ TC_PA01 › click | id=react-burger-menu-btn
+info: ✓ TC_PA01 › click | css=*[data-test="logout-sidebar-link"]
+info: ✓ TC_PA01 › close
+info: Finished test TC_PA01 Success
+info: Running test TC_LA07
+info: ✓ TC_LA07 › open | https://www.saucedemo.com/
+info: ✓ TC_LA07 › setWindowSize | 976x1040
+info: ✓ TC_LA07 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA07 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA07 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA07 › click | css=*[data-test="username"]
+info: ✓ TC_LA07 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_LA07 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA07 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA07 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA07 › click | css=*[data-test="password"]
+info: ✓ TC_LA07 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA07 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA07 › close
+info: Finished test TC_LA07 Success
+info: Running test TC_LA08
+info: ✓ TC_LA08 › open | https://www.saucedemo.com/
+info: ✓ TC_LA08 › setWindowSize | 976x1040
+info: ✓ TC_LA08 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA08 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LA08 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LA08 › click | css=*[data-test="username"]
+info: ✓ TC_LA08 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_LA08 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA08 › click | css=*[data-test="login-password"]
+info: ✓ TC_LA08 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LA08 › click | css=*[data-test="password"]
+info: ✓ TC_LA08 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LA08 › click | css=*[data-test="login-button"]
+info: ✓ TC_LA08 › close
+info: Finished test TC_LA08 Success
+info: Running test TC_LO04
+info: ✓ TC_LO04 › open | https://www.saucedemo.com/
+info: ✓ TC_LO04 › setWindowSize | 974x1040
+info: ✓ TC_LO04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LO04 › click | css=*[data-test="username"]
+info: ✓ TC_LO04 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_LO04 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO04 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LO04 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO04 › click | css=*[data-test="password"]
+info: ✓ TC_LO04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LO04 › click | css=*[data-test="login-button"]
+info: ✓ TC_LO04 › click | id=react-burger-menu-btn
+info: ✓ TC_LO04 › click | css=*[data-test="logout-sidebar-link"]
+info: ✓ TC_LO04 › close
+info: Finished test TC_LO04 Success
+info: Running test TC_LO05
+info: ✓ TC_LO05 › open | https://www.saucedemo.com/
+info: ✓ TC_LO05 › setWindowSize | 974x1040
+info: ✓ TC_LO05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_LO05 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_LO05 › click | css=*[data-test="username"]
+info: ✓ TC_LO05 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_LO05 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO05 › click | css=*[data-test="login-password"]
+info: ✓ TC_LO05 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_LO05 › click | css=*[data-test="password"]
+info: ✓ TC_LO05 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_LO05 › click | css=*[data-test="login-button"]
+info: ✓ TC_LO05 › click | id=react-burger-menu-btn
+info: ✓ TC_LO05 › click | css=*[data-test="logout-sidebar-link"]
+info: ✓ TC_LO05 › close
+info: Finished test TC_LO05 Success
+info: Running test TC_PA02
+info: ✓ TC_PA02 › open | https://www.saucedemo.com/
+info: ✓ TC_PA02 › setWindowSize | 976x1040
+info: ✓ TC_PA02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PA02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PA02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PA02 › click | css=*[data-test="username"]
+info: ✓ TC_PA02 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PA02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PA02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PA02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PA02 › click | css=*[data-test="password"]
+info: ✓ TC_PA02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PA02 › click | css=*[data-test="login-button"]
+info: ✓ TC_PA02 › click | id=react-burger-menu-btn
+info: ✕ TC_PA02 › click | css=*[data-test="logout-sidebar-link"]: Operation timed out during click:css=*[data-test="logout-sidebar-link"]:
+info: Finished test TC_PA02 Failure
+info: Running test TC_PD01
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="logout-sidebar-link"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    ECONNREFUSED connect ECONNREFUSED 127.0.0.1:56756
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="logout-sidebar-link"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PD01 › open | https://www.saucedemo.com/
+info: ✓ TC_PD01 › setWindowSize | 976x1040
+info: ✓ TC_PD01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD01 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD01 › click | css=*[data-test="username"]
+info: ✓ TC_PD01 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PD01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD01 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD01 › click | css=*[data-test="password"]
+info: ✓ TC_PD01 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD01 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD01 › click | css=*[data-test="inventory-item-name"]
+info: ✓ TC_PD01 › click | css=*[data-test="back-to-products"]
+info: ✓ TC_PD01 › close
+info: Finished test TC_PD01 Success
+info: Running test TC_PD02
+info: ✓ TC_PD02 › open | https://www.saucedemo.com/
+info: ✓ TC_PD02 › setWindowSize | 976x1040
+info: ✓ TC_PD02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD02 › click | css=*[data-test="username"]
+info: ✓ TC_PD02 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PD02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD02 › click | css=*[data-test="password"]
+info: ✓ TC_PD02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD02 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD02 › close
+info: Finished test TC_PD02 Success
+info: Running test TC_PD03
+info: ✓ TC_PD03 › open | https://www.saucedemo.com/
+info: ✓ TC_PD03 › setWindowSize | 976x1040
+info: ✓ TC_PD03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD03 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD03 › click | css=*[data-test="username"]
+info: ✓ TC_PD03 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_PD03 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD03 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD03 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD03 › click | css=*[data-test="password"]
+info: ✓ TC_PD03 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD03 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD03 › close
+info: Finished test TC_PD03 Success
+info: Running test TC_PD04
+info: ✓ TC_PD04 › open | https://www.saucedemo.com/
+info: ✓ TC_PD04 › setWindowSize | 976x1040
+info: ✓ TC_PD04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD04 › click | css=*[data-test="username"]
+info: ✓ TC_PD04 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PD04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD04 › click | css=*[data-test="password"]
+info: ✓ TC_PD04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD04 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD04 › close
+info: Finished test TC_PD04 Success
+info: Running test TC_PD05
+info: ✓ TC_PD05 › open | https://www.saucedemo.com/
+info: ✓ TC_PD05 › setWindowSize | 976x1040
+info: ✓ TC_PD05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD05 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD05 › click | css=*[data-test="username"]
+info: ✓ TC_PD05 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_PD05 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD05 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD05 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD05 › click | css=*[data-test="password"]
+info: ✓ TC_PD05 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD05 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD05 › close
+info: Finished test TC_PD05 Success
+info: Running test TC_PD06
+info: ✓ TC_PD06 › open | https://www.saucedemo.com/
+info: ✓ TC_PD06 › setWindowSize | 976x1040
+info: ✓ TC_PD06 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD06 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD06 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD06 › click | css=*[data-test="username"]
+info: ✓ TC_PD06 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PD06 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD06 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD06 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD06 › click | css=*[data-test="password"]
+info: ✓ TC_PD06 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD06 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD06 › close
+info: Finished test TC_PD06 Success
+info: Running test TC_PD07
+info: ✓ TC_PD07 › open | https://www.saucedemo.com/
+info: ✓ TC_PD07 › setWindowSize | 976x1040
+info: ✓ TC_PD07 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD07 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD07 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD07 › click | css=*[data-test="username"]
+info: ✓ TC_PD07 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PD07 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD07 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD07 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD07 › click | css=*[data-test="password"]
+info: ✓ TC_PD07 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD07 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD07 › close
+info: Finished test TC_PD07 Success
+info: Running test TC_PD08
+info: ✓ TC_PD08 › open | https://www.saucedemo.com/
+info: ✓ TC_PD08 › setWindowSize | 976x1040
+info: ✓ TC_PD08 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD08 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD08 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD08 › click | css=*[data-test="username"]
+info: ✓ TC_PD08 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_PD08 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD08 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD08 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD08 › click | css=*[data-test="password"]
+info: ✓ TC_PD08 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD08 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD08 › close
+info: Finished test TC_PD08 Success
+info: Running test TC_PD09
+info: ✓ TC_PD09 › open | https://www.saucedemo.com/
+info: ✓ TC_PD09 › setWindowSize | 976x1040
+info: ✓ TC_PD09 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD09 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD09 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD09 › click | css=*[data-test="username"]
+info: ✓ TC_PD09 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PD09 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD09 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD09 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD09 › click | css=*[data-test="password"]
+info: ✓ TC_PD09 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD09 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD09 › close
+info: Finished test TC_PD09 Success
+info: Running test TC_PD10
+info: ✓ TC_PD10 › open | https://www.saucedemo.com/
+info: ✓ TC_PD10 › setWindowSize | 976x1040
+info: ✓ TC_PD10 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD10 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD10 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD10 › click | css=*[data-test="username"]
+info: ✓ TC_PD10 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_PD10 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD10 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD10 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD10 › click | css=*[data-test="password"]
+info: ✓ TC_PD10 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD10 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD10 › close
+info: Finished test TC_PD10 Success
+info: Running test TC_PD11
+info: ✓ TC_PD11 › open | https://www.saucedemo.com/
+info: ✓ TC_PD11 › setWindowSize | 976x1040
+info: ✓ TC_PD11 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD11 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD11 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD11 › click | css=*[data-test="username"]
+info: ✓ TC_PD11 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PD11 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD11 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD11 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD11 › click | css=*[data-test="password"]
+info: ✓ TC_PD11 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD11 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD11 › close
+info: Finished test TC_PD11 Success
+info: Running test TC_PD12
+info: ✓ TC_PD12 › open | https://www.saucedemo.com/
+info: ✓ TC_PD12 › setWindowSize | 976x1040
+info: ✓ TC_PD12 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD12 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD12 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD12 › click | css=*[data-test="username"]
+info: ✓ TC_PD12 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PD12 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD12 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD12 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD12 › click | css=*[data-test="password"]
+info: ✓ TC_PD12 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD12 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD12 › close
+info: Finished test TC_PD12 Success
+info: Running test TC_PD13
+info: ✓ TC_PD13 › open | https://www.saucedemo.com/
+info: ✓ TC_PD13 › setWindowSize | 976x1040
+info: ✓ TC_PD13 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD13 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD13 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD13 › click | css=*[data-test="username"]
+info: ✓ TC_PD13 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_PD13 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD13 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD13 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD13 › click | css=*[data-test="password"]
+info: ✓ TC_PD13 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD13 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD13 › close
+info: Finished test TC_PD13 Success
+info: Running test TC_PD014
+info: ✓ TC_PD014 › open | https://www.saucedemo.com/
+info: ✓ TC_PD014 › setWindowSize | 976x1040
+info: ✓ TC_PD014 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD014 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD014 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD014 › click | css=*[data-test="username"]
+info: ✓ TC_PD014 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PD014 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD014 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD014 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD014 › click | css=*[data-test="password"]
+info: ✓ TC_PD014 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD014 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD014 › close
+info: Finished test TC_PD014 Success
+info: Running test TC_PD15
+info: ✓ TC_PD15 › open | https://www.saucedemo.com/
+info: ✓ TC_PD15 › setWindowSize | 976x1040
+info: ✓ TC_PD15 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD15 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD15 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD15 › click | css=*[data-test="username"]
+info: ✓ TC_PD15 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_PD15 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD15 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD15 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD15 › click | css=*[data-test="password"]
+info: ✓ TC_PD15 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD15 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD15 › close
+info: Finished test TC_PD15 Success
+info: Running test TC_PD16
+info: ✓ TC_PD16 › open | https://www.saucedemo.com/
+info: ✓ TC_PD16 › setWindowSize | 976x1040
+info: ✓ TC_PD16 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD16 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD16 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD16 › click | css=*[data-test="username"]
+info: ✓ TC_PD16 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PD16 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD16 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD16 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD16 › click | css=*[data-test="password"]
+info: ✓ TC_PD16 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD16 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD16 › close
+info: Finished test TC_PD16 Success
+info: Running test TC_PD17
+info: ✓ TC_PD17 › open | https://www.saucedemo.com/
+info: ✓ TC_PD17 › setWindowSize | 976x1040
+info: ✓ TC_PD17 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD17 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD17 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD17 › click | css=*[data-test="username"]
+info: ✓ TC_PD17 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PD17 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD17 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD17 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD17 › click | css=*[data-test="password"]
+info: ✓ TC_PD17 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD17 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD17 › close
+info: Finished test TC_PD17 Success
+info: Running test TC_PD019
+info: ✓ TC_PD019 › open | https://www.saucedemo.com/
+info: ✓ TC_PD019 › setWindowSize | 976x1040
+info: ✓ TC_PD019 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD019 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD019 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD019 › click | css=*[data-test="username"]
+info: ✓ TC_PD019 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PD019 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD019 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD019 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD019 › click | css=*[data-test="password"]
+info: ✓ TC_PD019 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD019 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD019 › close
+info: Finished test TC_PD019 Success
+info: Running test TC_PD18
+info: ✓ TC_PD18 › open | https://www.saucedemo.com/
+info: ✓ TC_PD18 › setWindowSize | 976x1040
+info: ✓ TC_PD18 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD18 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD18 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD18 › click | css=*[data-test="username"]
+info: ✓ TC_PD18 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_PD18 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD18 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD18 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD18 › click | css=*[data-test="password"]
+info: ✓ TC_PD18 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD18 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD18 › close
+info: Finished test TC_PD18 Success
+info: Running test TC_PD20
+info: ✓ TC_PD20 › open | https://www.saucedemo.com/
+info: ✓ TC_PD20 › setWindowSize | 976x1040
+info: ✓ TC_PD20 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD20 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PD20 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PD20 › click | css=*[data-test="username"]
+info: ✓ TC_PD20 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_PD20 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD20 › click | css=*[data-test="login-password"]
+info: ✓ TC_PD20 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PD20 › click | css=*[data-test="password"]
+info: ✓ TC_PD20 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PD20 › click | css=*[data-test="login-button"]
+info: ✓ TC_PD20 › close
+info: Finished test TC_PD20 Success
+info: Running test TC_PQ01
+info: ✓ TC_PQ01 › open | https://www.saucedemo.com/
+info: ✓ TC_PQ01 › setWindowSize | 976x1040
+info: ✓ TC_PQ01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ01 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ01 › click | css=*[data-test="username"]
+info: ✓ TC_PQ01 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PQ01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ01 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PQ01 › click | css=*[data-test="password"]
+info: ✓ TC_PQ01 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PQ01 › click | css=*[data-test="login-button"]
+info: ✓ TC_PQ01 › click | css=*[data-test="inventory-item-description"]
+info: ✓ TC_PQ01 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✕ TC_PQ01 › click | css=*[data-test="back-to-products"]: Operation timed out during click:css=*[data-test="back-to-products"]:
+info: Finished test TC_PQ01 Failure
+info: Running test TC_PQ02
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Cannot read properties of undefined (reading 'findElements')
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PQ02 › open | https://www.saucedemo.com/
+info: ✓ TC_PQ02 › setWindowSize | 976x1040
+info: ✓ TC_PQ02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ02 › click | css=*[data-test="username"]
+info: ✓ TC_PQ02 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PQ02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PQ02 › click | css=*[data-test="password"]
+info: ✓ TC_PQ02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PQ02 › click | css=*[data-test="login-button"]
+info: ✓ TC_PQ02 › click | css=*[data-test="inventory-item-description"]
+info: ✓ TC_PQ02 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✕ TC_PQ02 › click | css=*[data-test="back-to-products"]: Operation timed out during click:css=*[data-test="back-to-products"]:
+info: Finished test TC_PQ02 Failure
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Waiting for element to be visible
+    Wait timed out after 15088ms
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: Running test TC_PQ03
+info: ✓ TC_PQ03 › open | https://www.saucedemo.com/
+info: ✓ TC_PQ03 › setWindowSize | 976x1040
+info: ✓ TC_PQ03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ03 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ03 › click | css=*[data-test="username"]
+info: ✓ TC_PQ03 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_PQ03 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ03 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ03 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PQ03 › click | css=*[data-test="password"]
+info: ✓ TC_PQ03 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PQ03 › click | css=*[data-test="login-button"]
+info: ✓ TC_PQ03 › click | css=*[data-test="inventory-item-description"]
+info: ✓ TC_PQ03 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_PQ03 › click | css=*[data-test="back-to-products"]
+info: ✕ TC_PQ03 › click | css=*[data-test="inventory-item-sauce-labs-bike-light-img"]: Operation timed out during click:css=*[data-test="inventory-item-sauce-labs-bike-light-img"]:
+info: Finished test TC_PQ03 Failure
+info: Running test TC_PQ04
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="inventory-item-sauce-labs-bike-light-img"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Cannot read properties of undefined (reading 'findElements')
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="inventory-item-sauce-labs-bike-light-img"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PQ04 › open | https://www.saucedemo.com/
+info: ✓ TC_PQ04 › setWindowSize | 976x1040
+info: ✓ TC_PQ04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ04 › click | css=*[data-test="username"]
+info: ✓ TC_PQ04 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PQ04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PQ04 › click | css=*[data-test="password"]
+info: ✓ TC_PQ04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PQ04 › click | css=*[data-test="login-button"]
+info: ✓ TC_PQ04 › click | css=*[data-test="inventory-item-description"]
+info: ✓ TC_PQ04 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✕ TC_PQ04 › click | css=*[data-test="back-to-products"]: Operation timed out during click:css=*[data-test="back-to-products"]:
+info: Finished test TC_PQ04 Failure
+info: Running test TC_PQ05
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Cannot read properties of undefined (reading 'findElements')
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PQ05 › open | https://www.saucedemo.com/
+info: ✓ TC_PQ05 › setWindowSize | 976x1040
+info: ✓ TC_PQ05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ05 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PQ05 › click | css=*[data-test="username"]
+info: ✓ TC_PQ05 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_PQ05 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ05 › click | css=*[data-test="login-password"]
+info: ✓ TC_PQ05 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PQ05 › click | css=*[data-test="password"]
+info: ✓ TC_PQ05 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PQ05 › click | css=*[data-test="login-button"]
+info: ✓ TC_PQ05 › click | css=*[data-test="inventory-item-description"]
+info: ✓ TC_PQ05 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✕ TC_PQ05 › click | css=*[data-test="back-to-products"]: Operation timed out during click:css=*[data-test="back-to-products"]:
+info: Finished test TC_PQ05 Failure
+info: Running test TC_PB01
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    ECONNREFUSED connect ECONNREFUSED 127.0.0.1:63389
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="back-to-products"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PB01 › open | https://www.saucedemo.com/
+info: ✓ TC_PB01 › setWindowSize | 976x1040
+info: ✓ TC_PB01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB01 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB01 › click | css=*[data-test="username"]
+info: ✓ TC_PB01 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_PB01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB01 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB01 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB01 › click | css=*[data-test="password"]
+info: ✓ TC_PB01 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB01 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB01 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_PB01 › click | css=*[data-test="add-to-cart"]
+info: ✕ TC_PB01 › click | css=*[data-test="remove"]: Operation timed out during click:css=*[data-test="remove"]:
+info: Finished test TC_PB01 Failure
+info: Running test TC_PB02
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="remove"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Cannot read properties of undefined (reading 'findElements')
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="remove"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PB02 › open | https://www.saucedemo.com/
+info: ✓ TC_PB02 › setWindowSize | 976x1040
+info: ✓ TC_PB02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB02 › click | css=*[data-test="username"]
+info: ✓ TC_PB02 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PB02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB02 › click | css=*[data-test="password"]
+info: ✓ TC_PB02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB02 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB02 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✕ TC_PB02 › click | css=*[data-test="add-to-cart"]: Operation timed out during click:css=*[data-test="add-to-cart"]:
+info: Finished test TC_PB02 Failure
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="add-to-cart"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Waiting for element to be visible
+    Wait timed out after 15093ms
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="add-to-cart"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: Running test TC_PB03
+info: ✓ TC_PB03 › open | https://www.saucedemo.com/
+info: ✓ TC_PB03 › setWindowSize | 976x1040
+info: ✓ TC_PB03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB03 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB03 › click | css=*[data-test="username"]
+info: ✓ TC_PB03 › type | css=*[data-test="username"] |  performance_glitch_user
+info: ✓ TC_PB03 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB03 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB03 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB03 › click | css=*[data-test="password"]
+info: ✓ TC_PB03 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB03 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB03 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_PB03 › click | css=*[data-test="add-to-cart"]
+info: ✓ TC_PB03 › click | css=*[data-test="remove"]
+info: ✓ TC_PB03 › click | css=.back-image
+info: ✓ TC_PB03 › click | css=*[data-test="inventory-item-sauce-labs-bike-light-img"]
+info: ✕ TC_PB03 › click | css=*[data-test="add-to-cart"]: Operation timed out during click:css=*[data-test="add-to-cart"]:
+info: Finished test TC_PB03 Failure
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="add-to-cart"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Waiting for element to be visible
+    Wait timed out after 15063ms
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="add-to-cart"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: Running test TC_PB04
+info: ✓ TC_PB04 › open | https://www.saucedemo.com/
+info: ✓ TC_PB04 › setWindowSize | 976x1040
+info: ✓ TC_PB04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB04 › click | css=*[data-test="username"]
+info: ✓ TC_PB04 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PB04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB04 › click | css=*[data-test="password"]
+info: ✓ TC_PB04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB04 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB04 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✕ TC_PB04 › click | css=*[data-test="add-to-cart"]: Operation timed out during click:css=*[data-test="add-to-cart"]:
+info: Finished test TC_PB04 Failure
+info: Running test TC_PB05
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="add-to-cart"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Cannot read properties of undefined (reading 'findElements')
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="add-to-cart"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_PB05 › open | https://www.saucedemo.com/
+info: ✓ TC_PB05 › setWindowSize | 976x1040
+info: ✓ TC_PB05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB05 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB05 › click | css=*[data-test="username"]
+info: ✓ TC_PB05 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_PB05 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB05 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB05 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB05 › click | css=*[data-test="password"]
+info: ✓ TC_PB05 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB05 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB05 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_PB05 › click | css=*[data-test="add-to-cart"]
+info: ✓ TC_PB05 › click | css=*[data-test="remove"]
+info: ✓ TC_PB05 › click | css=.back-image
+info: ✓ TC_PB05 › click | css=*[data-test="inventory-item-sauce-labs-bike-light-img"]
+info: ✓ TC_PB05 › click | css=*[data-test="add-to-cart"]
+info: ✕ TC_PB05 › click | css=*[data-test="remove"]: Operation timed out during click:css=*[data-test="remove"]:
+info: Finished test TC_PB05 Failure
+info: Running test TC_RS01
+  console.warn
+    Unexpected error occured during command: click-css=*[data-test="remove"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:234:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Cannot read properties of undefined (reading 'findElements')
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:240:17)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+  console.error
+    Command failure: click-css=*[data-test="remove"]-
+
+      at CommandNode.handleTransientError (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:245:15)
+      at ../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:197:18
+
+info: ✓ TC_RS01 › open | https://www.saucedemo.com/
+info: ✓ TC_RS01 › setWindowSize | 974x1040
+info: ✓ TC_RS01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS01 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS01 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_RS01 › click | css=*[data-test="username"]
+info: ✓ TC_RS01 › type | css=*[data-test="username"] | standard_user
+info: ✓ TC_RS01 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS01 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS01 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_RS01 › click | css=*[data-test="password"]
+info: ✓ TC_RS01 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_RS01 › click | css=*[data-test="login-button"]
+info: ✓ TC_RS01 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_RS01 › close
+info: Finished test TC_RS01 Success
+info: Running test TC_RS02
+info: ✓ TC_RS02 › open | https://www.saucedemo.com/
+info: ✓ TC_RS02 › setWindowSize | 974x1040
+info: ✓ TC_RS02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_RS02 › click | css=*[data-test="username"]
+info: ✓ TC_RS02 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_RS02 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS02 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_RS02 › click | css=*[data-test="password"]
+info: ✓ TC_RS02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_RS02 › click | css=*[data-test="login-button"]
+info: ✓ TC_RS02 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_RS02 › close
+info: Finished test TC_RS02 Success
+info: Running test TC_RS04
+info: ✓ TC_RS04 › open | https://www.saucedemo.com/
+info: ✓ TC_RS04 › setWindowSize | 974x1040
+info: ✓ TC_RS04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_RS04 › click | css=*[data-test="username"]
+info: ✓ TC_RS04 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_RS04 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS04 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_RS04 › click | css=*[data-test="password"]
+info: ✓ TC_RS04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_RS04 › click | css=*[data-test="login-button"]
+info: ✓ TC_RS04 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_RS04 › close
+info: Finished test TC_RS04 Success
+info: Running test TC_RS05
+info: ✓ TC_RS05 › open | https://www.saucedemo.com/
+info: ✓ TC_RS05 › setWindowSize | 974x1040
+info: ✓ TC_RS05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS05 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS05 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_RS05 › click | css=*[data-test="username"]
+info: ✓ TC_RS05 › type | css=*[data-test="username"] | visual_user
+info: ✓ TC_RS05 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS05 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS05 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_RS05 › click | css=*[data-test="password"]
+info: ✓ TC_RS05 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_RS05 › click | css=*[data-test="login-button"]
+info: ✓ TC_RS05 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_RS05 › close
+info: Finished test TC_RS05 Success
+info: Running test TC_RS03
+info: ✓ TC_RS03 › open | https://www.saucedemo.com/
+info: ✓ TC_RS03 › setWindowSize | 974x1040
+info: ✓ TC_RS03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS03 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_RS03 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_RS03 › click | css=*[data-test="username"]
+info: ✓ TC_RS03 › type | css=*[data-test="username"] | performance_glitch_user
+info: ✓ TC_RS03 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS03 › click | css=*[data-test="login-password"]
+info: ✓ TC_RS03 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_RS03 › click | css=*[data-test="password"]
+info: ✓ TC_RS03 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_RS03 › click | css=*[data-test="login-button"]
+info: ✓ TC_RS03 › click | css=*[data-test="inventory-item-sauce-labs-backpack-img"]
+info: ✓ TC_RS03 › close
+info: Finished test TC_RS03 Success
+FAIL work/automation-run/runner-engine/dist/main.test.js (285.004 s)
+  Running project TC_ISTURIS_ACT3
+    √ Running test TC_LA02 (871 ms)
+    √ Running test TC_LA01 (451 ms)
+    √ Running test TC_LA03 (1388 ms)
+    √ Running test TC_LA04 (1381 ms)
+    √ Running test TC_LA05 (1570 ms)
+    √ Running test TC_LA06 (6566 ms)
+    √ Running test TC_LA09 (1288 ms)
+    √ Running test TC_LA10 (1215 ms)
+    √ Running test TC_LA11 (1146 ms)
+    √ Running test TC_LA12 (1340 ms)
+    √ Running test TC_LA13 (1162 ms)
+    √ Running test TC_LA14 (1408 ms)
+    √ Running test TC_LO01 (1661 ms)
+    √ Running test TC_LO02 (1722 ms)
+    √ Running test TC_LO03 (6753 ms)
+    √ Running test TC_PA01 (1867 ms)
+    √ Running test TC_LA07 (1309 ms)
+    √ Running test TC_LA08 (1331 ms)
+    √ Running test TC_LO04 (1653 ms)
+    √ Running test TC_LO05 (1692 ms)
+    × Running test TC_PA02 (16572 ms)
+    √ Running test TC_PD01 (1454 ms)
+    √ Running test TC_PD02 (1327 ms)
+    √ Running test TC_PD03 (1308 ms)
+    √ Running test TC_PD04 (1275 ms)
+    √ Running test TC_PD05 (1294 ms)
+    √ Running test TC_PD06 (1284 ms)
+    √ Running test TC_PD07 (1310 ms)
+    √ Running test TC_PD08 (6447 ms)
+    √ Running test TC_PD09 (1365 ms)
+    √ Running test TC_PD10 (1357 ms)
+    √ Running test TC_PD11 (1314 ms)
+    √ Running test TC_PD12 (1362 ms)
+    √ Running test TC_PD13 (6351 ms)
+    √ Running test TC_PD014 (1332 ms)
+    √ Running test TC_PD15 (1295 ms)
+    √ Running test TC_PD16 (1348 ms)
+    √ Running test TC_PD17 (1428 ms)
+    √ Running test TC_PD019 (1322 ms)
+    √ Running test TC_PD18 (1276 ms)
+    √ Running test TC_PD20 (1323 ms)
+    × Running test TC_PQ01 (16593 ms)
+    × Running test TC_PQ02 (16615 ms)
+    × Running test TC_PQ03 (21560 ms)
+    × Running test TC_PQ04 (16574 ms)
+    × Running test TC_PQ05 (16752 ms)
+    × Running test TC_PB01 (16590 ms)
+    × Running test TC_PB02 (16585 ms)
+    × Running test TC_PB03 (26666 ms)
+    × Running test TC_PB04 (16707 ms)
+    × Running test TC_PB05 (16574 ms)
+    √ Running test TC_RS01 (1381 ms)
+    √ Running test TC_RS02 (1478 ms)
+    √ Running test TC_RS04 (1521 ms)
+    √ Running test TC_RS05 (1395 ms)
+    √ Running test TC_RS03 (6536 ms)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PA02
+
+    Operation timed out during click:css=*[data-test="logout-sidebar-link"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PQ01
+
+    Operation timed out during click:css=*[data-test="back-to-products"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PQ02
+
+    Operation timed out during click:css=*[data-test="back-to-products"]:
+
+      at Timeout.<anonymous> (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PQ03
+
+    Operation timed out during click:css=*[data-test="inventory-item-sauce-labs-bike-light-img"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PQ04
+
+    Operation timed out during click:css=*[data-test="back-to-products"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PQ05
+
+    Operation timed out during click:css=*[data-test="back-to-products"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB01
+
+    Operation timed out during click:css=*[data-test="remove"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB02
+
+    Operation timed out during click:css=*[data-test="add-to-cart"]:
+
+      at Timeout.<anonymous> (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB03
+
+    Operation timed out during click:css=*[data-test="add-to-cart"]:
+
+      at Timeout.<anonymous> (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB04
+
+    Operation timed out during click:css=*[data-test="add-to-cart"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB05
+
+    Operation timed out during click:css=*[data-test="remove"]:
+
+      at Timeout._onTimeout (../node_modules/@seleniumhq/side-runtime/src/playback-tree/command-node.ts:187:13)
+
+Test Suites: 1 failed, 1 total
+Tests:       11 failed, 45 passed, 56 total
+Snapshots:   0 total
+Time:        285.126 s
+Ran all test suites within paths "<workspace>\work\automation-run\runner-engine\dist\main.test.js".
+Test results written to: work\automation-run\full-results\results.json

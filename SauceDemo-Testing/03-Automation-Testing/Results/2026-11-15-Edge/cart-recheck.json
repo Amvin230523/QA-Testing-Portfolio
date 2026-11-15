@@ -1,0 +1,94 @@
+{
+  "numFailedTestSuites": 1,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1794715898895,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 18294,
+          "failing": false,
+          "failureDetails": [
+            {
+              "name": "TimeoutError",
+              "remoteStacktrace": ""
+            }
+          ],
+          "failureMessages": [
+            "TimeoutError: Waiting for element to be visible\nWait timed out after 15018ms during waitForElementVisible:css=[data-test=\"remove\"]:15000\n    at <workspace>\\work\\automation-run\\node_modules\\selenium-webdriver\\lib\\webdriver.js:939:22\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB02",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB02",
+          "startAt": 1794715901029
+        },
+        {
+          "ancestorTitles": [
+            "Running project TC_ISTURIS_ACT3"
+          ],
+          "duration": 16806,
+          "failing": false,
+          "failureDetails": [
+            {
+              "name": "TimeoutError",
+              "remoteStacktrace": ""
+            }
+          ],
+          "failureMessages": [
+            "TimeoutError: Waiting for element to be visible\nWait timed out after 15135ms during waitForElementVisible:css=[data-test=\"add-to-cart\"]:15000\n    at <workspace>\\work\\automation-run\\node_modules\\selenium-webdriver\\lib\\webdriver.js:939:22\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)"
+          ],
+          "fullName": "Running project TC_ISTURIS_ACT3 Running test TC_PB04",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryMessages": [],
+          "retryReasons": [],
+          "status": "failed",
+          "title": "Running test TC_PB04",
+          "startAt": 1794715919324
+        }
+      ],
+      "endTime": 1794715936136,
+      "message": "  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB02\n\n    TimeoutError: Waiting for element to be visible\n    Wait timed out after 15018ms during waitForElementVisible:css=[data-test=\"remove\"]:15000\n\n      at ../../../../../work/automation-run/node_modules/selenium-webdriver/lib/webdriver.js:939:22\n\n  \u25cf Running project TC_ISTURIS_ACT3 \u203a Running test TC_PB04\n\n    TimeoutError: Waiting for element to be visible\n    Wait timed out after 15135ms during waitForElementVisible:css=[data-test=\"add-to-cart\"]:15000\n\n      at ../../../../../work/automation-run/node_modules/selenium-webdriver/lib/webdriver.js:939:22\n",
+      "name": "<workspace>\\outputs\\QA-Testing-Portfolio\\SauceDemo-Testing\\03-Automation-Testing\\.side-runner\\dist\\main.test.js",
+      "startTime": 1794715899017,
+      "status": "failed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

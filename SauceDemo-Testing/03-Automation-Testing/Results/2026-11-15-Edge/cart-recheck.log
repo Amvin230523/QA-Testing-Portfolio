@@ -1,0 +1,81 @@
+  console.info
+
+              Project TC_ISTURIS_ACT3 doesn't have any suites matching filter ^(TC_PB02|TC_PB04)$,
+              attempting to iterate all tests in project
+
+      at info (src/main.test.ts:184:17)
+
+info: Running test TC_PB02
+info: ✓ TC_PB02 › open | https://www.saucedemo.com/
+info: ✓ TC_PB02 › setWindowSize | 976x1040
+info: ✓ TC_PB02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB02 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB02 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB02 › click | css=*[data-test="username"]
+info: ✓ TC_PB02 › type | css=*[data-test="username"] | problem_user
+info: ✓ TC_PB02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB02 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB02 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB02 › click | css=*[data-test="password"]
+info: ✓ TC_PB02 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB02 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB02 › waitForElementVisible | id=item_4_img_link | 15000
+info: ✓ TC_PB02 › assertElementPresent | id=shopping_cart_container
+info: ✓ TC_PB02 › waitForElementVisible | id=item_4_img_link | 15000
+info: ✓ TC_PB02 › click | id=item_4_img_link
+info: ✓ TC_PB02 › waitForElementVisible | id=back-to-products | 15000
+info: ✓ TC_PB02 › assertElementPresent | id=back-to-products
+info: ✓ TC_PB02 › click | css=*[data-test="add-to-cart"]
+info: ✕ TC_PB02 › waitForElementVisible | css=[data-test="remove"] | 15000: Waiting for element to be visible Wait timed out after 15018ms during waitForElementVisible:css=[data-test="remove"]:15000
+info: Finished test TC_PB02 Failure
+info: Running test TC_PB04
+info: ✓ TC_PB04 › open | https://www.saucedemo.com/
+info: ✓ TC_PB04 › setWindowSize | 976x1040
+info: ✓ TC_PB04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB04 › click | css=*[data-test="login-credentials"]
+info: ✓ TC_PB04 › doubleClick | css=*[data-test="login-credentials"]
+info: ✓ TC_PB04 › click | css=*[data-test="username"]
+info: ✓ TC_PB04 › type | css=*[data-test="username"] | error_user
+info: ✓ TC_PB04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB04 › click | css=*[data-test="login-password"]
+info: ✓ TC_PB04 › doubleClick | css=*[data-test="login-password"]
+info: ✓ TC_PB04 › click | css=*[data-test="password"]
+info: ✓ TC_PB04 › type | css=*[data-test="password"] | secret_sauce
+info: ✓ TC_PB04 › click | css=*[data-test="login-button"]
+info: ✓ TC_PB04 › waitForElementVisible | id=item_4_img_link | 15000
+info: ✓ TC_PB04 › assertElementPresent | id=shopping_cart_container
+info: ✓ TC_PB04 › waitForElementVisible | id=item_4_img_link | 15000
+info: ✓ TC_PB04 › click | id=item_4_img_link
+info: ✓ TC_PB04 › waitForElementVisible | id=back-to-products | 15000
+info: ✓ TC_PB04 › assertElementPresent | id=back-to-products
+info: ✓ TC_PB04 › click | css=*[data-test="add-to-cart"]
+info: ✓ TC_PB04 › waitForElementVisible | css=[data-test="remove"] | 15000
+info: ✓ TC_PB04 › click | css=*[data-test="remove"]
+info: ✕ TC_PB04 › waitForElementVisible | css=[data-test="add-to-cart"] | 15000: Waiting for element to be visible Wait timed out after 15135ms during waitForElementVisible:css=[data-test="add-to-cart"]:15000
+info: Finished test TC_PB04 Failure
+FAIL outputs/QA-Testing-Portfolio/SauceDemo-Testing/03-Automation-Testing/.side-runner/dist/main.test.js (37.119 s)
+  Running project TC_ISTURIS_ACT3
+    × Running test TC_PB02 (18294 ms)
+    × Running test TC_PB04 (16806 ms)
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB02
+
+    TimeoutError: Waiting for element to be visible
+    Wait timed out after 15018ms during waitForElementVisible:css=[data-test="remove"]:15000
+
+      at ../../../../../work/automation-run/node_modules/selenium-webdriver/lib/webdriver.js:939:22
+
+  ● Running project TC_ISTURIS_ACT3 › Running test TC_PB04
+
+    TimeoutError: Waiting for element to be visible
+    Wait timed out after 15135ms during waitForElementVisible:css=[data-test="add-to-cart"]:15000
+
+      at ../../../../../work/automation-run/node_modules/selenium-webdriver/lib/webdriver.js:939:22
+
+Test Suites: 1 failed, 1 total
+Tests:       2 failed, 2 total
+Snapshots:   0 total
+Time:        37.247 s
+Ran all test suites within paths "<workspace>\outputs\QA-Testing-Portfolio\SauceDemo-Testing\03-Automation-Testing\.side-runner\dist\main.test.js".
+Test results written to: outputs\QA-Testing-Portfolio\SauceDemo-Testing\03-Automation-Testing\Results\Edge-2026-11-15T04-11-38-472Z\results.json
+Results: <workspace>\outputs\QA-Testing-Portfolio\SauceDemo-Testing\03-Automation-Testing\Results\Edge-2026-11-15T04-11-38-472Z

@@ -10,7 +10,7 @@ Arvin Isturis's Sauce Demo testing portfolio, containing business requirements, 
 | [02-Manual-Testing](SauceDemo-Testing/02-Manual-Testing/) | [Excel test cases](SauceDemo-Testing/02-Manual-Testing/Test-Cases.xlsx), with links to separate PNG evidence |
 | [03-Automation-Testing](SauceDemo-Testing/03-Automation-Testing/) | [Selenium IDE project](SauceDemo-Testing/03-Automation-Testing/Selenium-IDE-Tests.side), containing 56 recorded test flows |
 | [04-Test-Evidence](SauceDemo-Testing/04-Test-Evidence/) | [Evidence index](SauceDemo-Testing/04-Test-Evidence/README.md): 38 PNGs for 35 test cases |
-| [05-Bug-Reports](SauceDemo-Testing/05-Bug-Reports/) | Reserved for standalone bug reports; none have been added yet |
+| [05-Bug-Reports](SauceDemo-Testing/05-Bug-Reports/) | [Reproduced cart issues](SauceDemo-Testing/05-Bug-Reports/Cart-Issues.md) |
 
 ## Review the manual tests
 
@@ -22,7 +22,9 @@ Keep the folder structure intact so relative screenshot links continue to work. 
 
 ## Review the automation
 
-Open `SauceDemo-Testing/03-Automation-Testing/Selenium-IDE-Tests.side` in Selenium IDE. The supplied project contains 56 recorded flows against `https://www.saucedemo.com/`. Its commands perform navigation and interactions; no assertion or verification commands are present. The recordings have not been rerun or modified for this portfolio.
+Open `SauceDemo-Testing/03-Automation-Testing/Selenium-IDE-Tests.side` in Selenium IDE and run **Default Suite**, or follow the [npm runner instructions](SauceDemo-Testing/03-Automation-Testing/README.md).
+
+The repaired suite contains 56 nonempty recordings with added assertions and navigation waits. The [latest Edge run](SauceDemo-Testing/03-Automation-Testing/Results/2026-11-15-Edge/README.md) returned **54 passed and 2 failed**. Both remaining cart-state failures reproduced separately and remain enabled. The [original Chrome baseline](SauceDemo-Testing/03-Automation-Testing/Results/2026-11-14/README.md) is preserved.
 
 ## Scope and evidence notes
 
