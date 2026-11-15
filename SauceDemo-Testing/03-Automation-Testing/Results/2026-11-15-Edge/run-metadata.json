@@ -11,6 +11,8 @@
   "recordingCount": 56,
   "commandCount": 1383,
   "explicitAssertionCommands": 136,
-  "sourceSha256": "1cadb20754eff343923a9b53de26b53e58ecb2d6942b6110920ccd32d811678a",
-  "baselineSourceSha256": "207dcc6b103a3ecd7fe4c3cd6ab6ff299374086eda4af2816aee248992398405"
+  "sourceSha256": "79587fcfb35395dc7473469e11230a89fa0f12a16ddc3a0a8069cbd0424d1d06",
+  "baselineSourceSha256": "207dcc6b103a3ecd7fe4c3cd6ab6ff299374086eda4af2816aee248992398405",
+  "sourceHashLineEndings": "LF, as stored in Git",
+  "localCRLFSourceSha256": "1cadb20754eff343923a9b53de26b53e58ecb2d6942b6110920ccd32d811678a"
 }

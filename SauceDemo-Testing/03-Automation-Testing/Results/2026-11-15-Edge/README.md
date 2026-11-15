@@ -63,7 +63,7 @@ The complete repaired suite ran in headless Edge 157.0.4341.60 with Node.js 24.2
 - [Independent cart recheck JSON](cart-recheck.json) and [log](cart-recheck.log)
 - [Negative-control result](negative-control.json)
 
-Local workspace paths have been redacted from exported logs/results.
+Local workspace paths have been redacted from exported logs/results. The source SHA-256 uses the LF file stored in Git; metadata also records the local CRLF hash.
 
 ## All recording results
 
