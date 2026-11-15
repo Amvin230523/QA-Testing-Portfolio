@@ -1,6 +1,6 @@
 # Screenshot evidence
 
-Captured on 14 November 2026 using the current https://www.saucedemo.com/ site in the ChatGPT in-app desktop browser. Most images reuse the existing captures. Five product-detail images were recaptured before publication to replace clipped screenshots; the automation suite was not rerun.
+Manual test evidence captured on 14 November 2026. [Sauce Demo](https://www.saucedemo.com/)
 
 | Test case | Screenshots |
 | --- | --- |

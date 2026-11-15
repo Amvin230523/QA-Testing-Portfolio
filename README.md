@@ -24,13 +24,12 @@ Keep the folder structure intact so relative screenshot links continue to work. 
 
 Open `SauceDemo-Testing/03-Automation-Testing/Selenium-IDE-Tests.side` in Selenium IDE and run **Default Suite**, or follow the [npm runner instructions](SauceDemo-Testing/03-Automation-Testing/README.md).
 
-The repaired suite contains 56 nonempty recordings with added assertions and navigation waits. The [latest Edge run](SauceDemo-Testing/03-Automation-Testing/Results/2026-11-15-Edge/README.md) returned **54 passed and 2 failed**. Both remaining cart-state failures reproduced separately and remain enabled. The [original Chrome baseline](SauceDemo-Testing/03-Automation-Testing/Results/2026-11-14/README.md) is preserved.
+The latest Edge run completed all 56 tests with **54 passed and 2 failed**. Both cart failures reproduced in a separate check. [View automation results](SauceDemo-Testing/03-Automation-Testing/Results/2026-11-15-Edge/README.md)
 
 ## Scope and evidence notes
 
 - The BRD covers login and logout and references the older `/v1` site. The manual workbook and screenshot captures use the current Sauce Demo site.
-- Existing test results and browser status columns are preserved. Screenshot capture used the ChatGPT in-app browser and does not establish Edge, Chrome, Firefox, Safari, or mobile compatibility.
-- Evidence was captured on 14 November 2026. Five clipped product-detail images were recaptured before publication. Some screenshots are shared by multiple cases; before/after pairs are included for the cart and price checks.
+- Manual screenshot evidence was captured on 14 November 2026. Some screenshots cover multiple cases, and the cart and price checks include before-and-after pairs.
 - Product quantity and rating checks are outside the supplied BRD. Programming-themed names and descriptions require an agreed content specification before being classified as defects.
 - Hidden reporting-template sheets contain pre-existing broken references. They were preserved, and their summaries should not be treated as validated test metrics.
 

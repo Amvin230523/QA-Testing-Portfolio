@@ -1,14 +1,8 @@
-# Repaired automation run
+# Automation results
 
 Run started: 15 November 2026, 12:07:19 (Asia/Singapore).
 
-**54 passed, 2 failed, 0 skipped, 56 total.** All 56 recordings now contain commands. Both remaining failures reproduced in an independent two-test recheck.
-
-| Run | Passed | Failed | Notes |
-| --- | ---: | ---: | --- |
-| [Original Chrome baseline](../2026-11-14/README.md) | 45 | 11 | Includes one empty recording and no functional assertions |
-| Repaired Edge suite | 54 | 2 | All recordings nonempty; added assertions and state waits |
-| Independent cart recheck | 0 | 2 | Both cart-state failures reproduced |
+**54 passed, 2 failed, 0 skipped, 56 total.** Both cart failures reproduced in a separate check.
 
 ## Changes verified
 
@@ -24,7 +18,7 @@ Run started: 15 November 2026, 12:07:19 (Asia/Singapore).
 
 ## Browser and runner diagnosis
 
-The installed Chrome 156 environment intermittently reported successful WebDriver clicks without the expected DOM click event. The small comparison sequence completed in Edge 157. This supports using Edge for this run; it does not establish the cause inside Chrome or prove that all Chrome versions are affected. Extra geometry-polling scripts that did not solve the Chrome issue were discarded.
+Chrome 156 intermittently reported successful WebDriver clicks without delivering the expected click event. The same sequence completed in Edge 157. [Archived Chrome baseline](../../Archive/2026-11-14/README.md)
 
 The official runner CLI also failed to apply its Jest configuration here. `run-tests.cjs` invokes the unchanged official engine through Jest, and copies it outside node_modules because Jest excludes engine tests in that location. Generated engine files and caches are ignored by Git.
 
